@@ -1,0 +1,15 @@
+// main:common.scss
+footer {
+    width: 100%;
+    height: 35px;
+    border-top: 1px solid #e7e7e7;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    .container {
+        line-height: 25px;
+        color: #005ead;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}

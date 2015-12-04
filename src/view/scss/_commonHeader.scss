@@ -1,0 +1,15 @@
+// main:common.scss
+header {
+    .navbar-default {
+        background-color: inherit;
+        border-color: inherit;
+        border: none;
+        .navbar-brand {
+            padding: 0;
+            color: black+25%;
+            line-height: 50px;
+            font-size: 36px;
+            text-shadow: white 1px 1px;
+        }
+    }
+}

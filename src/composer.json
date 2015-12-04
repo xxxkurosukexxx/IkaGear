@@ -1,0 +1,20 @@
+{
+    "name": "xxxkurosukexxx/ikagear",
+    "description": "IkaGear",
+    "require": {
+        "smarty/smarty": "^3.1",
+        "apache/log4php": "^2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xxxkurosukexxx",
+            "email": "info@kurosuke.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "IkaGear\\": ""
+        }
+    }
+}

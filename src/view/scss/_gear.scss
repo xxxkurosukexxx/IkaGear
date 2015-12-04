@@ -1,0 +1,53 @@
+// main:index.scss
+// 画像の最大サイズ
+$imgMaxWidth: 32px;
+$imgMaxHeight: 32px;
+
+// テーブルセルパディング
+$cellPadding: 20px 10px;
+@mixin __img {
+    &__img {
+        max: {
+            width: $imgMaxWidth;
+            height: $imgMaxHeight;
+        }
+    }
+}
+.gearTable {
+    width: 100%;
+    .gear {
+        border-bottom: 1px dotted black;
+        $name_list: have, name, brand, mainPower, easyPower, difficultyPower, rank, price, version;
+        @each $name in $name_list {
+            &__#{$name} {
+                padding: $cellPadding;
+                @if $name == price {
+                    max-width: 100px;
+                }
+            }
+        }
+    }
+    tbody {
+        .gear {
+            &__have {
+                label {
+                    height: 30px;
+                }
+                input[type=checkbox] {
+                    margin-top: 0;
+                    -webkit-box-shadow: none;
+                    box-shadow: none;
+                }
+            }
+            $name_list: name, brand, mainPower, easyPower, difficultyPower;
+            @each $name in $name_list {
+                &__#{$name} {
+                    @include __img;
+                    @if $name == mainPower or $name == easyPower or $name == difficultyPower {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+    <title>IkaGear</title>
+    <parser>
+        <target>../work/tmp</target>
+        <encoding>utf-8</encoding>
+    </parser>
+    <transformer>
+        <target>../docs/</target>
+    </transformer>
+    <transformations>
+        <template name="abstract"/>
+    </transformations>
+    <files>
+        <directory>.</directory>
+        <ignore>vendor/*</ignore>
+        <ignore>view/Smarty/templates_c/*</ignore>
+    </files>
+</phpdoc>
