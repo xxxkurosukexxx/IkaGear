@@ -33,7 +33,7 @@ class BaseModel
         if (is_null($this->db)) {
             IkaGear::logger()->info('DB connecting.');
             $this->db = new \PDO(
-                'sqlite:'.__DIR__.'./Ika.db',
+                'sqlite:'.__DIR__.'/Ika.db',
                 null,
                 null,
                 [
