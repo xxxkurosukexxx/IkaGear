@@ -81,7 +81,8 @@
           </div>
         </div>
         <div class="col-xs-12">
-          <button class="btn btn-default pull-right">search</button>
+          <button class="btn btn-default form__btn__search">検索</button>
+          <button class="btn btn-default pull-right form__btn__count">カウント</button>
         </div>
       </form>
     </div>
@@ -98,7 +99,7 @@
               <th class="gear__difficultyPower hidden-xs"><a class="sorter" data-sort-name="sort__difficultyPower" data-sort-order="{if $sort['name'] == 'sort__difficultyPower'}{if $sort['order'] == 'desc'}desc{else}asc{/if}{/if}">付きにくい{if $sort['name'] == 'sort__difficultyPower'} {if $sort['order'] == 'desc'}▼{else}▲{/if}{/if}</a></th>
               <th class="gear__rank"><a class="sorter" data-sort-name="sort__rank" data-sort-order="{if $sort['name'] == 'sort__rank'}{if $sort['order'] == 'desc'}desc{else}asc{/if}{/if}">ランク{if $sort['name'] == 'sort__rank'} {if $sort['order'] == 'desc'}▼{else}▲{/if}{/if}</a></th>
               <th class="gear__price"><a class="sorter" data-sort-name="sort__price" data-sort-order="{if $sort['name'] == 'sort__price'}{if $sort['order'] == 'desc'}desc{else}asc{/if}{/if}">価格{if $sort['name'] == 'sort__price'} {if $sort['order'] == 'desc'}▼{else}▲{/if}{/if}</a></th>
-              <th class="gear__version"><a class="sorter" data-sort-name="sort__version" data-sort-order="{if $sort['name'] == 'sort__version'}{if $sort['order'] == 'desc'}desc{else}asc{/if}{/if}">実装{if $sort['name'] == 'sort__version'} {if $sort['order'] == 'desc'}▼{else}▲{/if}{/if}</a></th>
+              <th class="gear__version hidden-xs"><a class="sorter" data-sort-name="sort__version" data-sort-order="{if $sort['name'] == 'sort__version'}{if $sort['order'] == 'desc'}desc{else}asc{/if}{/if}">実装{if $sort['name'] == 'sort__version'} {if $sort['order'] == 'desc'}▼{else}▲{/if}{/if}</a></th>
             </tr>
           </thead>
           <tbody>
@@ -112,7 +113,7 @@
               <td class="gear__difficultyPower hidden-xs">{if {$g['difficulty_power_img']} != ''}<img data-original="/img{$g['difficulty_power_img']}" class="lazy gear__difficultyPower__img">{else}--{/if}</td>
               <td class="gear__rank">{for $i=1 to $g['rank']}★{/for}</td>
               <td class="gear__price">{if is_numeric($g['price'])}{$g['price']|number_format}{else}{$g['price']}{/if}</td>
-              <td class="gear__version">v{$g['version']}～</td>
+              <td class="gear__version hidden-xs">v{$g['version']}～</td>
             </tr>
 {/foreach}
           </tbody>
