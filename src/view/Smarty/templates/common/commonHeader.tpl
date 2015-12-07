@@ -12,6 +12,7 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.php">TOP</a></li>
+            <li><a href="bkrs.php">バックアップ・インポート</a></li>
             <li><a href="about.php">当サイトについて・免責事項など</a></li>
           </ul>
         </div>

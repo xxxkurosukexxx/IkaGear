@@ -22,6 +22,18 @@
         }
     }
 
+    // formボタンのイベント設定
+    $('.form__btn__search').on('click', function() {
+        $('form').submit();
+        return false;
+    });
+    $('.form__btn__count').on('click', function() {
+        var checkBoxCount = $('.gearTable tbody input[type=checkbox]').size(),
+            checkedCount = $('.gearTable tbody input[type=checkbox]:checked').size();
+        alert('現在の検索条件での保有率：' + checkedCount + ' / ' + checkBoxCount);
+        return false;
+    });
+
     // lazyload.
     $('img.lazy').lazyload({
         effect: 'fadeIn'
