@@ -10,7 +10,7 @@
 
 {include file="common/commonLoadCss.tpl"}
 
-  <link rel="stylesheet" href="/css/bkrs.css">
+  <link rel="stylesheet" href="/css/bkrs.css?v={#version#}">
 </head>
 
 <body>
@@ -44,7 +44,7 @@
   <script src="/js/lib/base64.js"></script>
   <script src="/js/lib/rawinflate.js"></script>
   <script src="/js/lib/rawdeflate.js"></script>
-  <script src="/js/bkrs.js"></script>
+  <script src="/js/bkrs.js?v={#version#}"></script>
 </body>
 
 </html>

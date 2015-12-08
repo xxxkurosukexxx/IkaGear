@@ -39,7 +39,7 @@
 <text text-anchor="middle" x="274" y="-477.2" font-family="Courier,monospace" font-size="11.00">AboutController</text>
 </g>
 <!-- \\IkaGear\\controller\\BaseController -->
-<g id="node2" class="node"><title>\\IkaGear\\controller\\BaseController</title>
+<g id="node3" class="node"><title>\\IkaGear\\controller\\BaseController</title>
 <polygon fill="none" stroke="black" points="143,-444 32,-444 32,-408 143,-408 143,-444"/>
 <text text-anchor="middle" x="87.5" y="-423.2" font-family="Courier,monospace" font-size="11.00">BaseController</text>
 </g>
@@ -48,25 +48,25 @@
 <path fill="none" stroke="black" d="M214.876,-462.988C195.179,-457.223 173.065,-450.751 152.907,-444.851"/>
 <polygon fill="none" stroke="black" points="153.769,-441.456 143.189,-442.006 151.803,-448.175 153.769,-441.456"/>
 </g>
-<!-- \\IkaGear\\controller\\IndexController -->
-<g id="node3" class="node"><title>\\IkaGear\\controller\\IndexController</title>
-<polygon fill="none" stroke="black" points="333,-444 215,-444 215,-408 333,-408 333,-444"/>
-<text text-anchor="middle" x="274" y="-423.2" font-family="Courier,monospace" font-size="11.00">IndexController</text>
-</g>
-<!-- \\IkaGear\\controller\\IndexController&#45;&gt;\\IkaGear\\controller\\BaseController -->
-<g id="edge2" class="edge"><title>\\IkaGear\\controller\\IndexController&#45;&gt;\\IkaGear\\controller\\BaseController</title>
-<path fill="none" stroke="black" d="M214.876,-426C195.358,-426 173.466,-426 153.458,-426"/>
-<polygon fill="none" stroke="black" points="153.189,-422.5 143.189,-426 153.188,-429.5 153.189,-422.5"/>
-</g>
 <!-- \\IkaGear\\controller\\BkrsController -->
-<g id="node4" class="node"><title>\\IkaGear\\controller\\BkrsController</title>
-<polygon fill="none" stroke="black" points="329.5,-390 218.5,-390 218.5,-354 329.5,-354 329.5,-390"/>
-<text text-anchor="middle" x="274" y="-369.2" font-family="Courier,monospace" font-size="11.00">BkrsController</text>
+<g id="node2" class="node"><title>\\IkaGear\\controller\\BkrsController</title>
+<polygon fill="none" stroke="black" points="329.5,-444 218.5,-444 218.5,-408 329.5,-408 329.5,-444"/>
+<text text-anchor="middle" x="274" y="-423.2" font-family="Courier,monospace" font-size="11.00">BkrsController</text>
 </g>
 <!-- \\IkaGear\\controller\\BkrsController&#45;&gt;\\IkaGear\\controller\\BaseController -->
-<g id="edge5" class="edge"><title>\\IkaGear\\controller\\BkrsController&#45;&gt;\\IkaGear\\controller\\BaseController</title>
-<path fill="none" stroke="black" d="M218.143,-388.056C197.602,-394.068 174.083,-400.951 152.766,-407.19"/>
-<polygon fill="none" stroke="black" points="151.759,-403.838 143.145,-410.006 153.726,-410.556 151.759,-403.838"/>
+<g id="edge2" class="edge"><title>\\IkaGear\\controller\\BkrsController&#45;&gt;\\IkaGear\\controller\\BaseController</title>
+<path fill="none" stroke="black" d="M218.143,-426C197.787,-426 174.506,-426 153.343,-426"/>
+<polygon fill="none" stroke="black" points="153.145,-422.5 143.145,-426 153.145,-429.5 153.145,-422.5"/>
+</g>
+<!-- \\IkaGear\\controller\\IndexController -->
+<g id="node4" class="node"><title>\\IkaGear\\controller\\IndexController</title>
+<polygon fill="none" stroke="black" points="333,-390 215,-390 215,-354 333,-354 333,-390"/>
+<text text-anchor="middle" x="274" y="-369.2" font-family="Courier,monospace" font-size="11.00">IndexController</text>
+</g>
+<!-- \\IkaGear\\controller\\IndexController&#45;&gt;\\IkaGear\\controller\\BaseController -->
+<g id="edge3" class="edge"><title>\\IkaGear\\controller\\IndexController&#45;&gt;\\IkaGear\\controller\\BaseController</title>
+<path fill="none" stroke="black" d="M214.876,-389.012C195.179,-394.777 173.065,-401.249 152.907,-407.149"/>
+<polygon fill="none" stroke="black" points="151.803,-403.825 143.189,-409.994 153.769,-410.544 151.803,-403.825"/>
 </g>
 <!-- \\IkaGear\\model\\BaseModel -->
 <g id="node5" class="node"><title>\\IkaGear\\model\\BaseModel</title>
@@ -79,7 +79,7 @@
 <text text-anchor="middle" x="274" y="-289.2" font-family="Courier,monospace" font-size="11.00">IndexModel</text>
 </g>
 <!-- \\IkaGear\\model\\IndexModel&#45;&gt;\\IkaGear\\model\\BaseModel -->
-<g id="edge4" class="edge"><title>\\IkaGear\\model\\IndexModel&#45;&gt;\\IkaGear\\model\\BaseModel</title>
+<g id="edge5" class="edge"><title>\\IkaGear\\model\\IndexModel&#45;&gt;\\IkaGear\\model\\BaseModel</title>
 <path fill="none" stroke="black" d="M231.595,-292C203.273,-292 165.654,-292 136.095,-292"/>
 <polygon fill="none" stroke="black" points="136.005,-288.5 126.005,-292 136.005,-295.5 136.005,-288.5"/>
 </g>
@@ -94,7 +94,7 @@
 <text text-anchor="middle" x="87.5" y="-14.3" font-family="Times New Roman,serif" font-size="14.00" fill="gray">\Smarty</text>
 </g>
 <!-- \\IkaGear\\view\\smarty&#45;&gt;\\Smarty -->
-<g id="edge3" class="edge"><title>\\IkaGear\\view\\smarty&#45;&gt;\\Smarty</title>
+<g id="edge4" class="edge"><title>\\IkaGear\\view\\smarty&#45;&gt;\\Smarty</title>
 <path fill="none" stroke="black" d="M245.218,-200.68C235.104,-195.801 223.964,-189.483 215,-182 166.346,-141.387 124.726,-78.9605 103.515,-44.0069"/>
 <polygon fill="none" stroke="black" points="106.463,-42.1168 98.3279,-35.3297 100.455,-45.7088 106.463,-42.1168"/>
 </g>

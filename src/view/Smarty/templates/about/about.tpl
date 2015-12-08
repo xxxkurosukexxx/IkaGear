@@ -10,7 +10,7 @@
 
 {include file="common/commonLoadCss.tpl"}
 
-  <link rel="stylesheet" href="/css/about.css">
+  <link rel="stylesheet" href="/css/about.css?v={#version#}">
 </head>
 
 <body>
@@ -50,6 +50,37 @@
           <p>本サイトのコンテンツに記載された会社名・製品名は、各法人または個人の登録商標または商標です。<br>スプラトゥーン/Splatoonは任天堂の登録商標です。<br>本サイトは任天堂やスプラトゥーン公式とは一切関係ありません。</p>
           <p>内容に誤りがあった場合、<a href="https://twitter.com/xxxkurosukexxx">ナカノヒト：@xxxkurosukexxx</a>へご連絡ください。</p>
         </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p class="h3">リリースノート</p>
+      </div>
+      <div class="col-xs-12">
+        <dl>
+          <dt><a href="https://github.com/xxxkurosukexxx/IkaGear/releases/tag/v20151208" target="_blank">v20151208</a></dt>
+          <dd><ul>
+            <li>New：表示切替機能追加（全て：未保有のみ：保有のみ）</li>
+            <li>New：Aboutページにリリースノート追加</li>
+            <li>Fix：JavaScript/CSSのキャッシュ対策追加</li>
+          </ul></dd>
+          <dt><a href="https://github.com/xxxkurosukexxx/IkaGear/releases/tag/v20151207" target="_blank">v20151207</a></dt>
+          <dd><ul>
+            <li>Fix：スマホ表示調整</li>
+            <li>New：現在の検索条件で未保有数をalert表示</li>
+            <li>New：バックアップ・インポート機能実装</li>
+          </ul></dd>
+          <dt><a href="https://github.com/xxxkurosukexxx/IkaGear/releases/tag/v20151204" target="_blank">v20151204</a></dt>
+          <dd><ul>
+            <li>1st release.</li>
+          </ul></dd>
+{* テンプレート
+          <dt><a href="https://github.com/xxxkurosukexxx/IkaGear/releases/tag/" target="_blank">v</a></dt>
+          <dd><ul>
+            <li></li>
+          </ul></dd>
+*}
+        </dl>
+      </div>
     </div>
   </div>
 

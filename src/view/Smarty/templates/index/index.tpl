@@ -10,7 +10,7 @@
 
 {include file="common/commonLoadCss.tpl"}
 
-  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/index.css?v={#version#}">
 </head>
 
 <body>
@@ -82,7 +82,18 @@
         </div>
         <div class="col-xs-12">
           <button class="btn btn-default form__btn__search">検索</button>
-          <button class="btn btn-default pull-right form__btn__count">カウント</button>
+          <div class="pull-right">
+            <div class="dropdown viewchange">
+              <button class="btn btn-default dropdown-toggle viewchange__btn" data-toggle="dropdown"><span id="viewchange__btn__span">表示：全て</span> <span class="caret"></span></button>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li><a href="javascript:void 0;" class="viewchange__a" data-value="全て">全て</a></li>
+                <li><a href="javascript:void 0;" class="viewchange__a" data-value="未保有のみ">未保有のみ</a></li>
+                <li><a href="javascript:void 0;" class="viewchange__a" data-value="保有のみ">保有のみ</a></li>
+              </ul>
+              <input type="hidden" name="viewchange" class="viewchange__hidden" value="{$sp['viewchange']}" />
+            </div>
+            <button class="btn btn-default form__btn__count">カウント</button>
+          </div>
         </div>
       </form>
     </div>
@@ -126,7 +137,7 @@
 
 {include file="common/commonLoadJs.tpl"}
 
-  <script src="/js/index.js"></script>
+  <script src="/js/index.js?v={#version#}"></script>
 </body>
 
 </html>
