@@ -10,7 +10,7 @@
 
 {include file="common/commonLoadCss.tpl"}
 
-  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/index.css?v={#version#}">
 </head>
 
 <body>
@@ -126,7 +126,7 @@
 
 {include file="common/commonLoadJs.tpl"}
 
-  <script src="/js/index.js"></script>
+  <script src="/js/index.js?v={#version#}"></script>
 </body>
 
 </html>

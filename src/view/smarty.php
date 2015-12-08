@@ -27,6 +27,7 @@ class smarty extends \Smarty
             $this->smarty->cache_dir = __DIR__.'/Smarty/cache/';
 
             $this->smarty->default_modifiers = ['escape:"html"', 'nl2br'];
+            $this->smarty->configLoad('commonParams.conf');
         }
     }
 

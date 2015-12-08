@@ -10,7 +10,7 @@
 
 {include file="common/commonLoadCss.tpl"}
 
-  <link rel="stylesheet" href="/css/about.css">
+  <link rel="stylesheet" href="/css/about.css?v={#version#}">
 </head>
 
 <body>
