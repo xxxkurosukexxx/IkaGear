@@ -1,5 +1,8 @@
 (function($, window) {
     var IkaGear = {};
+    var VC_ALL = 'all',
+        VC_HAVE = 'have',
+        VC_NOTHAVE = 'nothave';
 
     // localStorageが使えるかチェック
     if (window.localStorage === undefined) {
@@ -58,4 +61,59 @@
         IkaGear[$(this).val()] = $(this).is(':checked');
         window.localStorage.IkaGear = JSON.stringify(IkaGear);
     });
+
+    // 表示切替
+    switch ($('.viewchange__hidden').val()) {
+        case VC_ALL:
+            _changeViewChange(VC_ALL);
+            break;
+        case VC_NOTHAVE:
+            _changeViewChange(VC_NOTHAVE);
+            break;
+        case VC_HAVE:
+            _changeViewChange(VC_HAVE);
+            break;
+        default:
+            break;
+    }
+    $('.viewchange__a').on('click', function() {
+        switch ($(this).data('value')) {
+            case '全て':
+                _changeViewChange(VC_ALL);
+                break;
+            case '未保有のみ':
+                _changeViewChange(VC_NOTHAVE);
+                break;
+            case '保有のみ':
+                _changeViewChange(VC_HAVE);
+                break;
+            default:
+                break;
+        }
+        //return false;
+    });
+
+    function _changeViewChange(mode) {
+        switch (mode) {
+            case VC_ALL:
+                $('.gearTable tbody .gear').removeClass('hide');
+                $('#viewchange__btn__span').text('表示：全て');
+                $('.viewchange__hidden').val(VC_ALL)
+                break;
+            case VC_NOTHAVE:
+                $('.gearTable tbody .gear').addClass('hide')
+                    .find('.gear__have__check:not(:checked)').parents('.gear').removeClass('hide');
+                $('#viewchange__btn__span').text('表示：未保有のみ');
+                $('.viewchange__hidden').val(VC_NOTHAVE)
+                break;
+            case VC_HAVE:
+                $('.gearTable tbody .gear').addClass('hide')
+                    .find('.gear__have__check:checked').parents('.gear').removeClass('hide');
+                $('#viewchange__btn__span').text('表示：保有のみ');
+                $('.viewchange__hidden').val(VC_HAVE)
+                break;
+            default:
+                break;
+        }
+    }
 })(this.jQuery, this);

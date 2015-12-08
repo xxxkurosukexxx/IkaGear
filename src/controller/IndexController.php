@@ -62,6 +62,7 @@ class IndexController extends BaseController
                 'mainPower' => filter_input(INPUT_GET, 'search__mainPower') ?: '',
                 'rank' => filter_input(INPUT_GET, 'search__rank') ?: '',
                 'version' => array_filter(filter_input(INPUT_GET, 'search__version', FILTER_DEFAULT, FILTER_REQUIRE_ARRAY + FILTER_FORCE_ARRAY) ?: []),
+                'viewchange' => filter_input(INPUT_GET, 'viewchange') ?: 'all',
             ];
         }
 
