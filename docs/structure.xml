@@ -393,7 +393,7 @@
     <namespace-alias name="IndexController">\IkaGear\controller\IndexController</namespace-alias>
     <source>eJxljsEKwjAQRO/5ityqOSQfUEHBg/QfArI2i4bGbJo2jZ/v5qKgsJeZeczO4ZgeSRilhFTSR4cvzYZm1YxTgnGCO8phggtCtpvHaiveODQiwhMXJv7jXoiyfO2R4popBMx2aC/OH81gxrn4jFeKXNRpbfg2jI6ygbJSIHBtUsdoxCp/Cnb7XrwBbFFBjA==</source>
   </file>
-  <file path="model\BaseModel.php" generated-path="model.BaseModel.html" hash="0b9341db6343664e9432420efb60a54e" package="IkaGear\model">
+  <file path="model\BaseModel.php" generated-path="model.BaseModel.html" hash="7c695a3a1ebc069028550b2d36403eb2" package="IkaGear\model">
     <docblock line="0">
       <description>BaseModel.php.</description>
       <long-description></long-description>
@@ -496,7 +496,7 @@
         </docblock>
       </method>
     </class>
-    <source>eJylU91u2jAYvc9T+KJSElTCPayUAGFDggWFdJq0TpaTmOA1TVLboUJT32IPsTfba8wObiGk5UdYQgnH5zvnO/aXT7f5MtdajYYGGqCPGJ5mEU4sAVoCkWAvR+EDijEYP6DPGNH7R8kQOy0tRY+Yie29vY6mFWyLqadAazalSpggxrag9lsDYgku6K0QBW7wC4cczIauehMlkpBTskIcg6soADcgLRLpqyrLp3AiKeGW+qOqiiAhIVgUachJlgIIwyxlnBYhN8ySsbF/eVdLdqEaepV93e5RzAua7rSrXg/aR0HFVS6yAAZhUAYyrviSsGY3CkxzhyGXOtR2O8niGFPDbHZJusgMfdgHIlEqjEkaW7rZqZS9Ccojw8/gXvRpVBhy6ewpIRy3dQvC4diD0NKtlnC0okC/rrFlp6eiP2qIXLKLdtv2fQ8OnZF9N/HhyPEHX+DUHTrgpqsIG8yez91BXXlPx/G8arECoPN94Mz8sfv1uMT0bmL7Dpx5zsz2nLnUWqCE4Xrlzwqyd+atVoSDIv735+8e/M4dlszttTe7TwWma0OfOxNn4IPNvcAVpkxMj2HqomSBebi0xbCYO75qfOVSc/mm2flgvmPMxU98cAlhH063TSlalzR2cK6FmIw2EVK1Ad9vSOauxmyAkedOwQpKIyj7qQY9FCGgKI1OyFDyjoboS9alKUqrM2Pk2TM+5SpK3tEYM8m6NEZpdWYMvs7xCSkk7WgIX5AuzSCNzoygPrYTUijm0SDfNrxLsyi7A3FetP9IzRQA</source>
+    <source>eJylU91u2jAYvc9T+KJSElTCPayUAGFDggWFdJq0TpaTmOA1TVLboUJT32IPsTfba8wObiGk5UdYQgnH5zvnO/aXT7f5MtdajYYGGqCPGJ5mEU4sAVoCkWAvR+EDijEYP6DPGNH7R8kQOy0tRY+Yie29vY6mFWyLqadAazalSpggxrag9lsDYgku6K0QBW7wC4cczIauehMlkpBTskIcg6soADcgLRLpqyrLp3AiKeGW+qOqiiAhIVgUachJlgIIwyxlnBYhN8ySsbF/eVdLdqEaepV93e5RzAua7rSrXg/aR0HFVS6yAAZhUAYyrviSsGY3CkxzhyGXOtR2O8niGFPDbHZJusgMfdgHIlEqjEkaW7rZqZS9Ccojw8/gXvRpVBhy6ewpIRy3dQvC4diD0NJbwtCKAv26RpaNnor+qCFyySbabdv3PTh0RvbdxIcjxx98gVN36ICbriJsMHs+dwd15T0dx/OqxQqAzveBM/PH7tfjEtO7ie07cOY5M9tz5lJrgRKG65U/K8jekbdaEQ6K+N+fv3vwO1dYMre33uw+FZiuDX3uTJyBDzbXAleYMjE8hqmLkgXm4dIWs2Lu+KrplUuN5Ztm54PxjjEXP/G9JYR9ONw2pWhd0tjBsRZiMtpESNXme78hmbsaswFGnjsFKyiNoOynGvRQhICiNDohQ8k7GqIvWZemKK3OjJFnz/iUqyh5R2PMJOvSGKXVmTH4OscnpJC0oyF8Qbo0gzQ6M4L62E5IoZhHg3zb8C7NouwOxHnR/gOt9RPS</source>
   </file>
   <file path="view\smarty.php" generated-path="view.smarty.html" hash="c17a648e215744c3f2989f8f1b3ad197" package="IkaGear\view">
     <docblock line="0">
@@ -783,6 +783,111 @@
       <todo line="34">検索条件、ソート条件、検索結果をそれぞれオブジェクト化する？</todo>
     </markers>
     <source>eJydVltr3EYUftevmIIT7Rp7/R43Tp1m25o6dmoXQnGMkKXZXWGtpM6Mtl7KQqQlxCEJLaU4lOZC0tArSR96IdD010y9pk/9C50ZzepmSVZ2MSvvnO9853xnjmbO25e8nqcszc8rYB6sOSY8uOqa0G6x1RZb4qvveLqxr3chWNvX34c6utHnCGZZUhy9DzEz52zLiuLjZE0+2erpOILGsHWMU6sAHhDomBhc1jEUK8rnCmAf4c8/88ByLNKSP5bE0/P3bMsAHd8xiOU6QNMM18EE+QZpNAUiIhFESx6yHKKhxhzpWXhxpQsJz3HdwgzcXBbAkZIPSsOXNHw2ef7w5Pdn0+BTGysT0vtgFSF9COYwIzN61/gSBpHD5NHTf/76kwYv/711//jwQYmfi4j0Aizc33T8mo4Pi11jBgSJjxwZ5uSPLyePH+YhxDXdbB43gzz9zSDNQMOvaPCIhvdo8Jh/hz/T8RENX9HwBxr+yryO7x3R4Bsa3v3v9ZPKjYhqEZc3U5uFtOT8Ls3hT21wEajb7fX2ux8zGe9tbV4FA63LCDSbcanLGez1HkSQOezsZtdlQbMGqwMab8G+R4bZjJrNVAZToIUxzGW+o/LuV3eb4Px5UEQUA/KEmXR3drlCjgS2tQ/BpZSm0xoi9Dm1pZumgdlr04O4OOoCUG9o59Rmi6GzjKN66sjQq1YnATXUcSR71pBWGGKm9PeQ7piV+U8RNQQI6EwKZJCZJPR1y7nmfgZRpYw0qoYUj0NnkpIKNJMcVon9SiUSUEMER86kIQoxU/oDiDA7zSoVJJgiER0XQd3ogVIvoGOW8KDIV0jTLCfSXyS8UPzgNG50VnFlOmBtAzTUltX3bHYDN1R2oCyIFNiR0jzzSInrI6lLdxW0WEhw/YP2VhukooHVjSsiYExQFnFUfKInlwrfrumOxquZ07vA6iKz8I1KUt7cutLeApc/YVknM8Qmd/sQDgtDtVSOLYiynBIT/yunpgsXbLfbhajRXFwx4Z7fFTVNVaMSJ0uQvg5Jn/DWiFI29zjeQ5ANITDPLLCLK/AAGj6BWb4YJGcPie1AYvRWbbtRMUL9Rsfs75COX4jp4yf+Hdyl4Z3Jq6c0+I4G39PgPg2exOMJDTlycnT7+MUDNv2wwWT7o/WTr3+kwS/Hz+9Mvvg2GkNKBrJtwia9bjRmbPBrtoy3ZKqS/jJkta+cf5A10AlMBqBTjcHzyA87vHuTJC+yFuM/NE00T74NZW5RZ6XaB0AbwzKm6C4qo4qsdbmSy6CMT1w0tfmgjofVfByhvRmpaXU6luHb5AzqBPeGAcR1UsYqjHWZWM8Y5dscWetyTe+TMrapPc9X1mO+baex8sUeKf8DRelb7w==</source>
+  </file>
+  <file path="controller\BkrsController.php" generated-path="controller.BkrsController.html" hash="984407e1464725bd1101aa466df5c3df" package="IkaGear\controller">
+    <docblock line="0">
+      <description>BkrsController.php.</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="IkaGear\controller"/>
+    </docblock>
+    <namespace-alias name="IkaGear">\IkaGear\IkaGear</namespace-alias>
+    <class final="false" abstract="false" namespace="IkaGear\controller" line="14" package="IkaGear\controller">
+      <extends>\IkaGear\controller\BaseController</extends>
+      <name>BkrsController</name>
+      <full_name>\IkaGear\controller\BkrsController</full_name>
+      <docblock line="14">
+        <description>BkrsController.</description>
+        <long-description></long-description>
+        <tag name="package" line="14" description="IkaGear\controller"/>
+        <tag name="inherited_from" description="\IkaGear\controller\BaseController" refers="\IkaGear\controller\BaseController" link="/classes/IkaGear.controller.BaseController.html"/>
+      </docblock>
+      <property static="false" visibility="private" namespace="IkaGear\controller" line="18" package="IkaGear\controller">
+        <name>$smarty</name>
+        <full_name>\IkaGear\controller\BaseController::smarty</full_name>
+        <default>null</default>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="18" description="&lt;p&gt;Smarty&lt;/p&gt;" type="Object" variable="">
+            <type>Object</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\controller" line="19" package="IkaGear\controller">
+        <name>__construct</name>
+        <full_name>\IkaGear\controller\BkrsController::__construct()</full_name>
+        <docblock line="19">
+          <description>init.</description>
+          <long-description></long-description>
+          <tag name="inherited_from" description="\IkaGear\controller\BaseController::__construct()" refers="\IkaGear\controller\BaseController::__construct()" link="/classes/IkaGear.controller.BaseController.html#method___construct"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\controller" line="23" package="IkaGear\controller">
+        <name>__construct</name>
+        <full_name>\IkaGear\controller\BaseController::__construct()</full_name>
+        <docblock line="23">
+          <description>init.</description>
+          <long-description></long-description>
+        </docblock>
+        <inherited_from>\IkaGear\controller\BaseController</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\controller" line="32" package="IkaGear\controller">
+        <name>smarty</name>
+        <full_name>\IkaGear\controller\BaseController::smarty()</full_name>
+        <docblock line="32">
+          <description>Smarty.</description>
+          <long-description></long-description>
+          <tag name="return" line="32" description="Smarty" type="Object">
+            <type>Object</type>
+          </tag>
+        </docblock>
+        <inherited_from>\IkaGear\controller\BaseController</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\controller" line="46" package="IkaGear\controller">
+        <name>catchException</name>
+        <full_name>\IkaGear\controller\BaseController::catchException()</full_name>
+        <docblock line="46">
+          <description>各ControllerでExceptionをcatchした時に呼び出す共通処理.</description>
+          <long-description></long-description>
+          <tag name="param" line="46" description="&lt;p&gt;catchしたException&lt;/p&gt;" type="\Exception" variable="$e">
+            <type>\Exception</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$e</name>
+          <default></default>
+          <type>\Exception</type>
+        </argument>
+        <inherited_from>\IkaGear\controller\BaseController</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="IkaGear\controller" line="59" package="IkaGear\controller">
+        <name>errorLog</name>
+        <full_name>\IkaGear\controller\BaseController::errorLog()</full_name>
+        <docblock line="59">
+          <description>各ControllerでcatchしたExceptionのログを出力する.</description>
+          <long-description></long-description>
+          <tag name="param" line="59" description="&lt;p&gt;catchしたException&lt;/p&gt;" type="\Exception" variable="$e">
+            <type>\Exception</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$e</name>
+          <default></default>
+          <type>\Exception</type>
+        </argument>
+        <inherited_from>\IkaGear\controller\BaseController</inherited_from>
+      </method>
+    </class>
+    <source>eJxtj8FuwjAMhu95ihyQSCvR3tnE2NCEkHbjOKYohKyNGtIocSWqiXefEzroED7Ysv9Pv+3nF1c7UuY5oTl9a3xYtRZ8a4zyBSoFjqOydEI2olJ004i1En4nrxjKJbHiqAIyj4AnQrpwE4aK08dbk580IoQ7haoTKHvAsQjqNiY/hGIksxg51VZDMTRlqq7bGy3pd2cl6NZSzvG8AL6TwLJEXExigO9HXYzh4vnctFWlPON89fG63XKe4RNjcAK1DrNFOAoPPctmC3xCV5Z9/qO+UDjo4Izo2XSPL5YxFeDMFA3/qDOVAmRN2e79JJVLZ09UdnfasDGhV44hNzIil3wmv6zZjPU=</source>
+  </file>
+  <file path="view\web\bkrs.php" generated-path="view.web.bkrs.html" hash="6fd4524c527e98d49a21806fd61c9719" package="IkaGear\view\web">
+    <docblock line="0">
+      <description>bkrs.php.</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="IkaGear\view\web"/>
+    </docblock>
+    <namespace-alias name="BkrsController">\IkaGear\controller\BkrsController</namespace-alias>
+    <source>eJxljj0OwjAMRnefIlshQ3KAIoFgQNwhEnJbC6qEJHXa5vq4CwgheXn+nn8Ox/zMYLUGpVXnuRhhI7DxKWPv8UHq5vFKyG4dqbpKnYQWIr6oiPEftwBL+bb7FGdOIRC7s1y4fFA8pmkZme4pyp7GGCu1UhwSW1zmFBIO20eNqJGq+p3f7Vt4A5k9QFo=</source>
   </file>
   <package name="IkaGear" full_name="IkaGear">
     <package name="controller" full_name="IkaGear\controller"/>
