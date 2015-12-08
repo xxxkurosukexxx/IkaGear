@@ -16,7 +16,6 @@
         } catch (e) {
             // nop
             // JSONのパースに失敗した場合Exceptionが発生するが失敗した=おそらくデータがおかしいので無視する。
-            console.log(e);
         }
     }
 
@@ -35,6 +34,8 @@
                 // ブラウザにデータが存在しないので問答無用に実行
                 _IkaGearRestore(rstxt);
             }
+        } else {
+            alert('バックアップでコピーした文字列を貼り付けてから再度操作してください。');
         }
     });
 
@@ -44,9 +45,10 @@
             //念のためJSONのチェック代わりにオブジェクトに変換してみる
             IkaGear = JSON.parse(rawtxt);
             window.localStorage.IkaGear = rawtxt;
+            alert('インポートが完了しました。');
         } catch (e) {
             // 復元失敗。入力データ異常？
-            alert('復元に失敗しました。バックアップから貼り付けた文字列が正しいかご確認ください。');
+            alert('インポートに失敗しました。バックアップから貼り付けた文字列が正しいかご確認ください。');
         }
     }
 })(this.jQuery, this);
