@@ -6,16 +6,16 @@ PHP + SQLite3(PDO) + Smarty + log4phpあたりを使ってます。
 あとjQueryとかBootstrap3とか。
 
 ## Install
-- 任意のディレクトリーにクローン
+- 任意のディレクトリにクローン
 - composer install
 - 設定ファイル編集
-    - system/log4php.xml
+    - src/system/log4php.xml
 - パーミッションの設定
 - Apacheの設定
     - src/view/webがドキュメントルートになるように
 
 sample
-```shell
+```bash
 $ cd /usr/local/src
 $ sudo git clone https://github.com/xxxkurosukexxx/IkaGear.git
 $ cd IkaGear/src/
