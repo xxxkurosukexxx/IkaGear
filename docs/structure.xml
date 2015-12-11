@@ -164,6 +164,204 @@
     </class>
     <source>eJx1j8FqwzAMhu9+Ch8KdQJN7t3o1pUxBrv1uA6jul5i6jrGVqBh9N2nuFmblU0HCen/+CXdP/jaszLPGc/5ctu0uGochsZaHQqSCpr30qMHtYdK89c9vGgIG3XBSC6Zg4OOxPwF3DHWxqswVJr+szYZKgsx3kpcH1G7XeRPEPV1zL4Yp0h2feTcOIPF0JSp+nZrjeKfrVNoGselpAMjhlahyBJxNukDQzfq+hhuns9tU1U6CClXb8v1WsqM3hiDE6xNnC3iAQJ2Ipst6AtTOfH+i/ogYWeit9CJKfQ/likX6O2ULH+4E1eAquZi83xU2qfDJzq7OW7YmdALJ4gbGbFzPrFvK2CPAg==</source>
   </file>
+  <file path="model\object\GearObject.php" generated-path="model.object.GearObject.html" hash="ea67eae3c63d2b338caa0f956bba4479" package="IkaGear\model\object">
+    <docblock line="0">
+      <description>GearObject.php.</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="IkaGear\model\object"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="IkaGear\model\object" line="12" package="IkaGear\model\object">
+      <extends/>
+      <name>GearObject</name>
+      <full_name>\IkaGear\model\object\GearObject</full_name>
+      <docblock line="12">
+        <description>GearObject.</description>
+        <long-description></long-description>
+        <tag name="package" line="12" description="IkaGear\model\object"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="15" package="IkaGear\model\object">
+        <name>$uuid</name>
+        <full_name>\IkaGear\model\object\GearObject::uuid</full_name>
+        <default></default>
+        <docblock line="15">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="15" description="&lt;p&gt;uuid&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="17" package="IkaGear\model\object">
+        <name>$name</name>
+        <full_name>\IkaGear\model\object\GearObject::name</full_name>
+        <default></default>
+        <docblock line="17">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="17" description="&lt;p&gt;name&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="19" package="IkaGear\model\object">
+        <name>$img</name>
+        <full_name>\IkaGear\model\object\GearObject::img</full_name>
+        <default></default>
+        <docblock line="19">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="19" description="&lt;p&gt;img&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="21" package="IkaGear\model\object">
+        <name>$rank</name>
+        <full_name>\IkaGear\model\object\GearObject::rank</full_name>
+        <default></default>
+        <docblock line="21">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="21" description="&lt;p&gt;rank&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="23" package="IkaGear\model\object">
+        <name>$price</name>
+        <full_name>\IkaGear\model\object\GearObject::price</full_name>
+        <default></default>
+        <docblock line="23">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="23" description="&lt;p&gt;price&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="25" package="IkaGear\model\object">
+        <name>$brand</name>
+        <full_name>\IkaGear\model\object\GearObject::brand</full_name>
+        <default></default>
+        <docblock line="25">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="25" description="&lt;p&gt;brand&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="27" package="IkaGear\model\object">
+        <name>$brand_img</name>
+        <full_name>\IkaGear\model\object\GearObject::brand_img</full_name>
+        <default></default>
+        <docblock line="27">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="27" description="&lt;p&gt;brand_img&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="29" package="IkaGear\model\object">
+        <name>$power</name>
+        <full_name>\IkaGear\model\object\GearObject::power</full_name>
+        <default></default>
+        <docblock line="29">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="29" description="&lt;p&gt;power&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="31" package="IkaGear\model\object">
+        <name>$power_img</name>
+        <full_name>\IkaGear\model\object\GearObject::power_img</full_name>
+        <default></default>
+        <docblock line="31">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="31" description="&lt;p&gt;power_img&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="33" package="IkaGear\model\object">
+        <name>$easy_power</name>
+        <full_name>\IkaGear\model\object\GearObject::easy_power</full_name>
+        <default></default>
+        <docblock line="33">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="33" description="&lt;p&gt;easy_power&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="35" package="IkaGear\model\object">
+        <name>$easy_power_img</name>
+        <full_name>\IkaGear\model\object\GearObject::easy_power_img</full_name>
+        <default></default>
+        <docblock line="35">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="35" description="&lt;p&gt;easy_power_img&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="37" package="IkaGear\model\object">
+        <name>$difficulty_power</name>
+        <full_name>\IkaGear\model\object\GearObject::difficulty_power</full_name>
+        <default></default>
+        <docblock line="37">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="37" description="&lt;p&gt;difficulty_power&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="39" package="IkaGear\model\object">
+        <name>$difficulty_power_img</name>
+        <full_name>\IkaGear\model\object\GearObject::difficulty_power_img</full_name>
+        <default></default>
+        <docblock line="39">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="39" description="&lt;p&gt;difficulty_power_img&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="41" package="IkaGear\model\object">
+        <name>$type</name>
+        <full_name>\IkaGear\model\object\GearObject::type</full_name>
+        <default></default>
+        <docblock line="41">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="41" description="&lt;p&gt;type&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="43" package="IkaGear\model\object">
+        <name>$version</name>
+        <full_name>\IkaGear\model\object\GearObject::version</full_name>
+        <default></default>
+        <docblock line="43">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="43" description="&lt;p&gt;version&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+    </class>
+    <source>eJyNkruOwjAQRXt/hQuqFPABQYIObUVBi4QmjgkmL8tOQAjx73giBKxzYTfluWdmrqXMF/ZgxSxJhEzkSpNbZ0etummg04CYLi2pkgotf0piY1u3ua627SAGYSYaqrUPFlZSAfYPc6oi79+ouAoZvmDL5Ymc3HTONIXse5Ozzpnts8ooOWGWQpvLxDYzbJu6iOWAsOuoKWOZGbatM2pUZIDYz8Kq0TMH+MXfgf7P4EOv9qzdqBfDLz668wzwnCZ/2cFjr+SvSXT2d4o35Ga/N6qvug8N4vx/W1Ab5OBt3cWOfgdm2D5p503bxAMPnIqbuAMptB6L</source>
+  </file>
   <file path="controller\BkrsController.php" generated-path="controller.BkrsController.html" hash="984407e1464725bd1101aa466df5c3df" package="IkaGear\controller">
     <docblock line="0">
       <description>BkrsController.php.</description>
@@ -259,6 +457,150 @@
       </method>
     </class>
     <source>eJxtj8FuwjAMhu95ihyQSCvR3tnE2NCEkHbjOKYohKyNGtIocSWqiXefEzroED7Ysv9Pv+3nF1c7UuY5oTl9a3xYtRZ8a4zyBSoFjqOydEI2olJ004i1En4nrxjKJbHiqAIyj4AnQrpwE4aK08dbk580IoQ7haoTKHvAsQjqNiY/hGIksxg51VZDMTRlqq7bGy3pd2cl6NZSzvG8AL6TwLJEXExigO9HXYzh4vnctFWlPON89fG63XKe4RNjcAK1DrNFOAoPPctmC3xCV5Z9/qO+UDjo4Izo2XSPL5YxFeDMFA3/qDOVAmRN2e79JJVLZ09UdnfasDGhV44hNzIil3wmv6zZjPU=</source>
+  </file>
+  <file path="model\object\BrandObject.php" generated-path="model.object.BrandObject.html" hash="1ee2b33a7cb4b6384688649f7460a1a6" package="IkaGear\model\object">
+    <docblock line="0">
+      <description>BrandObject.php.</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="IkaGear\model\object"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="IkaGear\model\object" line="12" package="IkaGear\model\object">
+      <extends/>
+      <name>BrandObject</name>
+      <full_name>\IkaGear\model\object\BrandObject</full_name>
+      <docblock line="12">
+        <description>BrandObject.</description>
+        <long-description></long-description>
+        <tag name="package" line="12" description="IkaGear\model\object"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="15" package="IkaGear\model\object">
+        <name>$uuid</name>
+        <full_name>\IkaGear\model\object\BrandObject::uuid</full_name>
+        <default></default>
+        <docblock line="15">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="15" description="&lt;p&gt;uuid&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="17" package="IkaGear\model\object">
+        <name>$name</name>
+        <full_name>\IkaGear\model\object\BrandObject::name</full_name>
+        <default></default>
+        <docblock line="17">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="17" description="&lt;p&gt;name&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="19" package="IkaGear\model\object">
+        <name>$img</name>
+        <full_name>\IkaGear\model\object\BrandObject::img</full_name>
+        <default></default>
+        <docblock line="19">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="19" description="&lt;p&gt;img&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="21" package="IkaGear\model\object">
+        <name>$easy_power</name>
+        <full_name>\IkaGear\model\object\BrandObject::easy_power</full_name>
+        <default></default>
+        <docblock line="21">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="21" description="&lt;p&gt;easy_power&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="23" package="IkaGear\model\object">
+        <name>$easy_power_img</name>
+        <full_name>\IkaGear\model\object\BrandObject::easy_power_img</full_name>
+        <default></default>
+        <docblock line="23">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="23" description="&lt;p&gt;easy_power_img&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="25" package="IkaGear\model\object">
+        <name>$difficulty_power</name>
+        <full_name>\IkaGear\model\object\BrandObject::difficulty_power</full_name>
+        <default></default>
+        <docblock line="25">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="25" description="&lt;p&gt;difficulty_power&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="27" package="IkaGear\model\object">
+        <name>$difficulty_power_img</name>
+        <full_name>\IkaGear\model\object\BrandObject::difficulty_power_img</full_name>
+        <default></default>
+        <docblock line="27">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="27" description="&lt;p&gt;difficulty_power_img&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+    </class>
+    <source>eJyNjrEOgjAQhvd7ig5ODPAAmEhcjJODKwk5SsFKgaalGmN8d1sWtTmjN37/d3f/eqNPGrIkAZawrcGxOdRnwefU49SzgAuNvMdOsH2PO4GmHKZGqHJaRC9kMOIgrLdoJQfqwbLIFVr7juEOzI/3WXFBw46zkWPHnJNN8EOmXa0kZ6vActIOdWI7MNqWQxfLHtGuQHur9HQVJl55Jb82K+LhZ0pfaGTbSu7U/KVBnP93hWpDOTk84AnUaKv2</source>
+  </file>
+  <file path="model\object\TypeObject.php" generated-path="model.object.TypeObject.html" hash="c7e4360855fe65fa81687a6f5096047a" package="IkaGear\model\object">
+    <docblock line="0">
+      <description>TypeObject.php.</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="IkaGear\model\object"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="IkaGear\model\object" line="12" package="IkaGear\model\object">
+      <extends/>
+      <name>TypeObject</name>
+      <full_name>\IkaGear\model\object\TypeObject</full_name>
+      <docblock line="12">
+        <description>TypeObject.</description>
+        <long-description></long-description>
+        <tag name="package" line="12" description="IkaGear\model\object"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="15" package="IkaGear\model\object">
+        <name>$uuid</name>
+        <full_name>\IkaGear\model\object\TypeObject::uuid</full_name>
+        <default></default>
+        <docblock line="15">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="15" description="&lt;p&gt;uuid&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="17" package="IkaGear\model\object">
+        <name>$name</name>
+        <full_name>\IkaGear\model\object\TypeObject::name</full_name>
+        <default></default>
+        <docblock line="17">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="17" description="&lt;p&gt;name&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+    </class>
+    <source>eJxtzrEOgjAQgOH9nuIGpw7wACWRzTg56MhylAtWCjQtNTHGd/fKZEw7/vfdpc3R3z3USgEqvL08X/oHm62SWknKtfVkJhoZzxOdmEI3rwO7bt2hgBoWmjmKKhMNhfv7nnEU40+FN6A80dg+KeB1C3YZMSU7ZJ5nPvXOGjzkpos6f+Zf56bhA1/c+Ucj</source>
   </file>
   <file path="controller\BaseController.php" generated-path="controller.BaseController.html" hash="7b5c4fe897493058e71bd52a6b7c9649" package="IkaGear\controller">
     <docblock line="0">
@@ -498,110 +840,184 @@
     <namespace-alias name="BkrsController">\IkaGear\controller\BkrsController</namespace-alias>
     <source>eJxljj0OwjAMRnefIlshQ3KAIoFgQNwhEnJbC6qEJHXa5vq4CwgheXn+nn8Ox/zMYLUGpVXnuRhhI7DxKWPv8UHq5vFKyG4dqbpKnYQWIr6oiPEftwBL+bb7FGdOIRC7s1y4fFA8pmkZme4pyp7GGCu1UhwSW1zmFBIO20eNqJGq+p3f7Vt4A5k9QFo=</source>
   </file>
-  <file path="model\BaseModel.php" generated-path="model.BaseModel.html" hash="7c695a3a1ebc069028550b2d36403eb2" package="IkaGear\model">
+  <file path="model\BaseModel.php" generated-path="model.BaseModel.html" hash="38611fe0748ecd0f37619be6157646f6" package="IkaGear\model">
     <docblock line="0">
       <description>BaseModel.php.</description>
       <long-description></long-description>
       <tag name="package" line="0" description="IkaGear\model"/>
     </docblock>
     <namespace-alias name="IkaGear">\IkaGear\IkaGear</namespace-alias>
-    <class final="false" abstract="false" namespace="IkaGear\model" line="14" package="IkaGear\model">
+    <namespace-alias name="BrandObject">\IkaGear\model\object\BrandObject</namespace-alias>
+    <namespace-alias name="GearObject">\IkaGear\model\object\GearObject</namespace-alias>
+    <namespace-alias name="PowerObject">\IkaGear\model\object\PowerObject</namespace-alias>
+    <namespace-alias name="TypeObject">\IkaGear\model\object\TypeObject</namespace-alias>
+    <namespace-alias name="VersionObject">\IkaGear\model\object\VersionObject</namespace-alias>
+    <class final="false" abstract="false" namespace="IkaGear\model" line="19" package="IkaGear\model">
       <extends/>
       <name>BaseModel</name>
       <full_name>\IkaGear\model\BaseModel</full_name>
-      <docblock line="14">
+      <docblock line="19">
         <description>BaseModel.</description>
         <long-description></long-description>
-        <tag name="package" line="14" description="IkaGear\model"/>
+        <tag name="package" line="19" description="IkaGear\model"/>
       </docblock>
-      <property static="false" visibility="private" namespace="IkaGear\model" line="17" package="IkaGear\model">
+      <property static="false" visibility="private" namespace="IkaGear\model" line="22" package="IkaGear\model">
         <name>$db</name>
         <full_name>\IkaGear\model\BaseModel::db</full_name>
         <default>null</default>
-        <docblock line="17">
+        <docblock line="22">
           <description></description>
           <long-description></long-description>
-          <tag name="var" line="17" description="&lt;p&gt;PDOObject&lt;/p&gt;" type="Object" variable="">
+          <tag name="var" line="22" description="&lt;p&gt;PDOObject&lt;/p&gt;" type="Object" variable="">
             <type>Object</type>
           </tag>
         </docblock>
       </property>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="22" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="27" package="IkaGear\model">
         <name>__construct</name>
         <full_name>\IkaGear\model\BaseModel::__construct()</full_name>
-        <docblock line="22">
+        <docblock line="27">
           <description>init.</description>
           <long-description></long-description>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="31" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="36" package="IkaGear\model">
         <name>db</name>
         <full_name>\IkaGear\model\BaseModel::db()</full_name>
-        <docblock line="31">
+        <docblock line="36">
           <description>init PDO Object.</description>
           <long-description></long-description>
-          <tag name="return" line="31" description="PDO Object" type="Object">
+          <tag name="return" line="36" description="PDO Object" type="Object">
             <type>Object</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="57" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="62" package="IkaGear\model">
         <name>getGearList</name>
         <full_name>\IkaGear\model\BaseModel::getGearList()</full_name>
-        <docblock line="57">
+        <docblock line="62">
           <description>get gear list.</description>
           <long-description></long-description>
-          <tag name="return" line="57" description="gears" type="Array">
+          <tag name="return" line="62" description="gears" type="Array">
             <type>Array</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="67" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="72" package="IkaGear\model">
         <name>getBrandList</name>
         <full_name>\IkaGear\model\BaseModel::getBrandList()</full_name>
-        <docblock line="67">
+        <docblock line="72">
           <description>get brand list.</description>
           <long-description></long-description>
-          <tag name="return" line="67" description="brands" type="Array">
+          <tag name="return" line="72" description="brands" type="Array">
             <type>Array</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="77" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="82" package="IkaGear\model">
         <name>getPowerList</name>
         <full_name>\IkaGear\model\BaseModel::getPowerList()</full_name>
-        <docblock line="77">
+        <docblock line="82">
           <description>get power list.</description>
           <long-description></long-description>
-          <tag name="return" line="77" description="powers" type="Array">
+          <tag name="return" line="82" description="powers" type="Array">
             <type>Array</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="87" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="92" package="IkaGear\model">
         <name>getTypeList</name>
         <full_name>\IkaGear\model\BaseModel::getTypeList()</full_name>
-        <docblock line="87">
+        <docblock line="92">
           <description>get type list.</description>
           <long-description></long-description>
-          <tag name="return" line="87" description="types" type="Array">
+          <tag name="return" line="92" description="types" type="Array">
             <type>Array</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="97" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="102" package="IkaGear\model">
         <name>getVersionList</name>
         <full_name>\IkaGear\model\BaseModel::getVersionList()</full_name>
-        <docblock line="97">
+        <docblock line="102">
           <description>get version list.</description>
           <long-description></long-description>
-          <tag name="return" line="97" description="versions" type="Array">
+          <tag name="return" line="102" description="versions" type="Array">
             <type>Array</type>
           </tag>
         </docblock>
       </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="IkaGear\model" line="115" package="IkaGear\model">
+        <name>_getFromList</name>
+        <full_name>\IkaGear\model\BaseModel::_getFromList()</full_name>
+        <docblock line="115">
+          <description>viewを指定してデータを取得する.</description>
+          <long-description></long-description>
+          <tag name="param" line="115" description="&lt;p&gt;view名&lt;/p&gt;" type="String" variable="$viewName">
+            <type>String</type>
+          </tag>
+          <tag name="param" line="115" description="&lt;p&gt;object class名&lt;/p&gt;" type="String" variable="$objectClassName">
+            <type>String</type>
+          </tag>
+          <tag name="return" line="115" description="結果" type="Array">
+            <type>Array</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$viewName</name>
+          <default></default>
+          <type>String</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$objectClassName</name>
+          <default></default>
+          <type>String</type>
+        </argument>
+      </method>
     </class>
-    <source>eJylU91u2jAYvc9T+KJSElTCPayUAGFDggWFdJq0TpaTmOA1TVLboUJT32IPsTfba8wObiGk5UdYQgnH5zvnO/aXT7f5MtdajYYGGqCPGJ5mEU4sAVoCkWAvR+EDijEYP6DPGNH7R8kQOy0tRY+Yie29vY6mFWyLqadAazalSpggxrag9lsDYgku6K0QBW7wC4cczIauehMlkpBTskIcg6soADcgLRLpqyrLp3AiKeGW+qOqiiAhIVgUachJlgIIwyxlnBYhN8ySsbF/eVdLdqEaepV93e5RzAua7rSrXg/aR0HFVS6yAAZhUAYyrviSsGY3CkxzhyGXOtR2O8niGFPDbHZJusgMfdgHIlEqjEkaW7rZqZS9Ccojw8/gXvRpVBhy6ewpIRy3dQvC4diD0NJbwtCKAv26RpaNnor+qCFyySbabdv3PTh0RvbdxIcjxx98gVN36ICbriJsMHs+dwd15T0dx/OqxQqAzveBM/PH7tfjEtO7ie07cOY5M9tz5lJrgRKG65U/K8jekbdaEQ6K+N+fv3vwO1dYMre33uw+FZiuDX3uTJyBDzbXAleYMjE8hqmLkgXm4dIWs2Lu+KrplUuN5Ztm54PxjjEXP/G9JYR9ONw2pWhd0tjBsRZiMtpESNXme78hmbsaswFGnjsFKyiNoOynGvRQhICiNDohQ8k7GqIvWZemKK3OjJFnz/iUqyh5R2PMJOvSGKXVmTH4OscnpJC0oyF8Qbo0gzQ6M4L62E5IoZhHg3zb8C7NouwOxHnR/gOt9RPS</source>
+    <source>eJydVk1v2kAQvftX7CGSbRTMHRoaAqaNBAEZp6pUqpVtFuIGbOIP0qjNIckhh7ZqVFWtWlU9Vj311lvV/hhE8je6u178gQlGrISwZ9+8eTsez/jBw/HRmCvkchzIgT3NRU27h4YSNkrYQoy7Y8041gYI7B9rj5DmdEcEgXcKnKWNkIu3F/ZKHOe7kY39lxJGCuza+gtkeN09R7N6LXq9AkUsmaC2fYqyUerZGGWCniDHNW1rjksniebAGGquGxm5VxzAC2PB7kRzQOAN2rUWu8IuBDB2zInmIbDV08EOsPwhyRrzpP84kmmZnsRumJevD00D9H3L8LA0AKFhW67n+IYniBQRhD9fykVUMEFz2vn2roM837FictnlyvA9PRGVLLMPBNOF5EDClndkuvlyTxfFGIIslu9icWgPBsgRxHzZtPq2wNf2AD6RhQOb1kDixVLCLSQkKUOnoIt1CgkEWbx7MjQ9VOQlCGv7CoQSX8ABpZ7Ob6fAROi61mcpC1lERLFYUVUF1uR65bChwrqsVh/DZqsmg50yAwS2aqPS6aSZF3hkRUk6MwOUn1bltrrfOsimaB42KqoM24rcrihyh3D1taGL0p7PE5aFlBcKPaT7g7uPPxfMSx4hRUZPPV8+8ZFzJvAduSFXVRA8FjgJXitB5LFLH3nGUQXXihiLy6qXLFaWIWfpnvIeIA//8Ps2NN17i7viONoZhbkryxqTkaM1MFWqvpOCIIbWHXtEofwEEm5IJPDbgI/61byOl+vWSfdbQzjFZSqnvXQD6ZQ91B7ryKvFj0m/XUM8xWWKp917A/GUPRQfmwGrxXt4DKyhncAypZORsoFywh0Kj8bSat3sFVpDOkNmqmezboMDsAjhGRJTc+EY0Tmw0ImJTqeXH27fXs9+fZ1efJ5e/JheXU+v/kwv/2H77P2n2V9s/DK9fCPNnUJn/FHiaCPQ8Rw8J8AW4TrAHyOUdHbz7j5cMNmrZGRTeHAP6AyPuUXuiWTe/b65/f5tvhnkMhzk0UyOJyhUtp0KHqQ5Phi3XG/k4dEWdjvSVMcOwmdAYRfNgbrSagJeCqnjHZtS5MsulkA6K/kkEVLzB7xOzKS20mp3IJkW+PF1l34KdXG4RfnpqOglMnwPCWIpauBh9QSQqN8z93PunPsPK1sBRg==</source>
+  </file>
+  <file path="model\object\VersionObject.php" generated-path="model.object.VersionObject.html" hash="96e49b9d98fcdfba8bd88d78a6a56f2b" package="IkaGear\model\object">
+    <docblock line="0">
+      <description>VersionObject.php.</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="IkaGear\model\object"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="IkaGear\model\object" line="12" package="IkaGear\model\object">
+      <extends/>
+      <name>VersionObject</name>
+      <full_name>\IkaGear\model\object\VersionObject</full_name>
+      <docblock line="12">
+        <description>VersionObject.</description>
+        <long-description></long-description>
+        <tag name="package" line="12" description="IkaGear\model\object"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="15" package="IkaGear\model\object">
+        <name>$uuid</name>
+        <full_name>\IkaGear\model\object\VersionObject::uuid</full_name>
+        <default></default>
+        <docblock line="15">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="15" description="&lt;p&gt;uuid&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="17" package="IkaGear\model\object">
+        <name>$name</name>
+        <full_name>\IkaGear\model\object\VersionObject::name</full_name>
+        <default></default>
+        <docblock line="17">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="17" description="&lt;p&gt;name&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+    </class>
+    <source>eJxtjjEOwjAMRXefwgNThvYARaIbYmJAYuriplEJTZMoaVgQd8fuBorH/97X9/EUHxFapQAV3k3KNvjr+DR6axg0nAroI+mFZoOXhc6G0rCGybgh7CILLXhaTWarrnRQn9ir2lHOvwDegHzcwf5FCW9bsn7GUuwkDWGxjM5qPEjWVW156d+WrIMPfAEdbUrv</source>
   </file>
   <file path="view\smarty.php" generated-path="view.smarty.html" hash="a2c174c897559315449c4f3fa2e78db2" package="IkaGear\view">
     <docblock line="0">
@@ -717,60 +1133,61 @@
     </class>
     <source>eJyNUk1L40AYvs+veIVC00LTy57qN7vrUhAFexXCGCfpaDIJM5PWRXqwRfcgC3rZ/QniYVlBPCj+mxjEf+FMMpYm3XX3vSTvx/O8H/Msrcb9GLWbTQRNCCLfJ9xWEVu5OrIWY/cQ+wS6h/gLwXxXfBWShCrVRgyHRKh8NbmIKnx5tRtgIUwEHSNQpqpgbYA5bO8dEFfCZp7UxTobczrAkkCtwMAysCQIFLmB5l/VhDIqbeO8xdTYHIfQk5wyH2pF7+zyMT25zb49pCc/s9NJOv6dTq7T8X128d3gTONkL6AueAlzJY0YOI4bMSF54krLUC2r4MfN9V7PcRo5plhIG/XAosLRs1o12aeitVIs0GjMVGmrOR4NSM71qbvjOHa9rSo/6OsfhUF9sVSsaRcUr4ZYBXKOUJvs82gIjAxhJ2GShuTzkUtivYdV34rkRpSw/c5sm0a5z6jk7RZP0umoC3jUT/i0dxlVWlRtNMX5RBa/5nIzuBFCf4S3VijzIqvemhqkk1/p+Oblx3l2dQ556G3s0ZwcpporC4ITmXBWVtq7r17wWNXnNTylif82iqekKfr2P8S1T4y2qq3+7yrPd+Onh7PqVUboFaVKG8A=</source>
   </file>
-  <file path="model\IndexModel.php" generated-path="model.IndexModel.html" hash="2e7d4ec8f7eaf81dd0fdcf2b62ab7998" package="IkaGear\model">
+  <file path="model\IndexModel.php" generated-path="model.IndexModel.html" hash="6dd13f5f30e731b891dc8940125d19a3" package="IkaGear\model">
     <docblock line="0">
       <description>IndexModel.php.</description>
       <long-description></long-description>
       <tag name="package" line="0" description="IkaGear\model"/>
     </docblock>
     <namespace-alias name="IkaGear">\IkaGear\IkaGear</namespace-alias>
-    <class final="false" abstract="false" namespace="IkaGear\model" line="14" package="IkaGear\model">
+    <namespace-alias name="GearObject">\IkaGear\model\object\GearObject</namespace-alias>
+    <class final="false" abstract="false" namespace="IkaGear\model" line="15" package="IkaGear\model">
       <extends>\IkaGear\model\BaseModel</extends>
       <name>IndexModel</name>
       <full_name>\IkaGear\model\IndexModel</full_name>
-      <docblock line="14">
+      <docblock line="15">
         <description>IndexModel.</description>
         <long-description></long-description>
-        <tag name="package" line="14" description="IkaGear\model"/>
+        <tag name="package" line="15" description="IkaGear\model"/>
         <tag name="inherited_from" description="\IkaGear\model\BaseModel" refers="\IkaGear\model\BaseModel" link="/classes/IkaGear.model.BaseModel.html"/>
       </docblock>
-      <property static="false" visibility="private" namespace="IkaGear\model" line="17" package="IkaGear\model">
+      <property static="false" visibility="private" namespace="IkaGear\model" line="22" package="IkaGear\model">
         <name>$db</name>
         <full_name>\IkaGear\model\BaseModel::db</full_name>
         <default>null</default>
-        <docblock line="17">
+        <docblock line="22">
           <description></description>
           <long-description></long-description>
-          <tag name="var" line="17" description="&lt;p&gt;PDOObject&lt;/p&gt;" type="Object" variable="">
+          <tag name="var" line="22" description="&lt;p&gt;PDOObject&lt;/p&gt;" type="Object" variable="">
             <type>Object</type>
           </tag>
         </docblock>
       </property>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="19" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="20" package="IkaGear\model">
         <name>__construct</name>
         <full_name>\IkaGear\model\IndexModel::__construct()</full_name>
-        <docblock line="19">
+        <docblock line="20">
           <description>init.</description>
           <long-description></long-description>
           <tag name="inherited_from" description="\IkaGear\model\BaseModel::__construct()" refers="\IkaGear\model\BaseModel::__construct()" link="/classes/IkaGear.model.BaseModel.html#method___construct"/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="34" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="35" package="IkaGear\model">
         <name>searchGearList</name>
         <full_name>\IkaGear\model\IndexModel::searchGearList()</full_name>
-        <docblock line="34">
+        <docblock line="35">
           <description>ギア検索.</description>
           <long-description></long-description>
-          <tag name="param" line="34" description="&lt;p&gt;検索条件の配列&lt;/p&gt;" type="Array" variable="$searchParams">
+          <tag name="param" line="35" description="&lt;p&gt;検索条件の配列&lt;/p&gt;" type="Array" variable="$searchParams">
             <type>Array</type>
           </tag>
-          <tag name="param" line="34" description="&lt;p&gt;ソート条件の配列&lt;/p&gt;" type="Array" variable="$sortParams">
+          <tag name="param" line="35" description="&lt;p&gt;ソート条件の配列&lt;/p&gt;" type="Array" variable="$sortParams">
             <type>Array</type>
           </tag>
-          <tag name="return" line="34" description="" type="\IkaGear\model\検索結果">
+          <tag name="return" line="35" description="" type="\IkaGear\model\検索結果">
             <type>\IkaGear\model\検索結果</type>
           </tag>
-          <tag name="todo" line="34" description="検索条件、ソート条件、検索結果をそれぞれオブジェクト化する？"/>
+          <tag name="todo" line="35" description="検索条件、ソート条件、検索結果をそれぞれオブジェクト化する？"/>
         </docblock>
         <argument line="0" by_reference="false">
           <name>$searchParams</name>
@@ -783,16 +1200,16 @@
           <type>Array</type>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="private" namespace="IkaGear\model" line="90" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="private" namespace="IkaGear\model" line="94" package="IkaGear\model">
         <name>getOrderKey</name>
         <full_name>\IkaGear\model\IndexModel::getOrderKey()</full_name>
-        <docblock line="90">
+        <docblock line="94">
           <description>コントローラーから渡ってきたソートキー文字列をSQL用に変換する.</description>
           <long-description></long-description>
-          <tag name="param" line="90" description="&lt;p&gt;ソートキー文字列&lt;/p&gt;" type="String" variable="$sortName">
+          <tag name="param" line="94" description="&lt;p&gt;ソートキー文字列&lt;/p&gt;" type="String" variable="$sortName">
             <type>String</type>
           </tag>
-          <tag name="return" line="90" description="SQL用ソートキー文字列" type="String">
+          <tag name="return" line="94" description="SQL用ソートキー文字列" type="String">
             <type>String</type>
           </tag>
         </docblock>
@@ -802,96 +1219,180 @@
           <type>String</type>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="22" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="27" package="IkaGear\model">
         <name>__construct</name>
         <full_name>\IkaGear\model\BaseModel::__construct()</full_name>
-        <docblock line="22">
+        <docblock line="27">
           <description>init.</description>
           <long-description></long-description>
         </docblock>
         <inherited_from>\IkaGear\model\BaseModel</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="31" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="36" package="IkaGear\model">
         <name>db</name>
         <full_name>\IkaGear\model\BaseModel::db()</full_name>
-        <docblock line="31">
+        <docblock line="36">
           <description>init PDO Object.</description>
           <long-description></long-description>
-          <tag name="return" line="31" description="PDO Object" type="Object">
+          <tag name="return" line="36" description="PDO Object" type="Object">
             <type>Object</type>
           </tag>
         </docblock>
         <inherited_from>\IkaGear\model\BaseModel</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="57" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="62" package="IkaGear\model">
         <name>getGearList</name>
         <full_name>\IkaGear\model\BaseModel::getGearList()</full_name>
-        <docblock line="57">
+        <docblock line="62">
           <description>get gear list.</description>
           <long-description></long-description>
-          <tag name="return" line="57" description="gears" type="Array">
+          <tag name="return" line="62" description="gears" type="Array">
             <type>Array</type>
           </tag>
         </docblock>
         <inherited_from>\IkaGear\model\BaseModel</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="67" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="72" package="IkaGear\model">
         <name>getBrandList</name>
         <full_name>\IkaGear\model\BaseModel::getBrandList()</full_name>
-        <docblock line="67">
+        <docblock line="72">
           <description>get brand list.</description>
           <long-description></long-description>
-          <tag name="return" line="67" description="brands" type="Array">
+          <tag name="return" line="72" description="brands" type="Array">
             <type>Array</type>
           </tag>
         </docblock>
         <inherited_from>\IkaGear\model\BaseModel</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="77" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="82" package="IkaGear\model">
         <name>getPowerList</name>
         <full_name>\IkaGear\model\BaseModel::getPowerList()</full_name>
-        <docblock line="77">
+        <docblock line="82">
           <description>get power list.</description>
           <long-description></long-description>
-          <tag name="return" line="77" description="powers" type="Array">
+          <tag name="return" line="82" description="powers" type="Array">
             <type>Array</type>
           </tag>
         </docblock>
         <inherited_from>\IkaGear\model\BaseModel</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="87" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="92" package="IkaGear\model">
         <name>getTypeList</name>
         <full_name>\IkaGear\model\BaseModel::getTypeList()</full_name>
-        <docblock line="87">
+        <docblock line="92">
           <description>get type list.</description>
           <long-description></long-description>
-          <tag name="return" line="87" description="types" type="Array">
+          <tag name="return" line="92" description="types" type="Array">
             <type>Array</type>
           </tag>
         </docblock>
         <inherited_from>\IkaGear\model\BaseModel</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="97" package="IkaGear\model">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\model" line="102" package="IkaGear\model">
         <name>getVersionList</name>
         <full_name>\IkaGear\model\BaseModel::getVersionList()</full_name>
-        <docblock line="97">
+        <docblock line="102">
           <description>get version list.</description>
           <long-description></long-description>
-          <tag name="return" line="97" description="versions" type="Array">
+          <tag name="return" line="102" description="versions" type="Array">
             <type>Array</type>
           </tag>
         </docblock>
+        <inherited_from>\IkaGear\model\BaseModel</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="IkaGear\model" line="115" package="IkaGear\model">
+        <name>_getFromList</name>
+        <full_name>\IkaGear\model\BaseModel::_getFromList()</full_name>
+        <docblock line="115">
+          <description>viewを指定してデータを取得する.</description>
+          <long-description></long-description>
+          <tag name="param" line="115" description="&lt;p&gt;view名&lt;/p&gt;" type="String" variable="$viewName">
+            <type>String</type>
+          </tag>
+          <tag name="param" line="115" description="&lt;p&gt;object class名&lt;/p&gt;" type="String" variable="$objectClassName">
+            <type>String</type>
+          </tag>
+          <tag name="return" line="115" description="結果" type="Array">
+            <type>Array</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$viewName</name>
+          <default></default>
+          <type>String</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$objectClassName</name>
+          <default></default>
+          <type>String</type>
+        </argument>
         <inherited_from>\IkaGear\model\BaseModel</inherited_from>
       </method>
     </class>
     <markers>
-      <todo line="34">検索条件、ソート条件、検索結果をそれぞれオブジェクト化する？</todo>
+      <todo line="35">検索条件、ソート条件、検索結果をそれぞれオブジェクト化する？</todo>
     </markers>
-    <source>eJydVltr3EYUftevmIIT7Rp7/R43Tp1m25o6dmoXQnGMkKXZXWGtpM6Mtl7KQqQlxCEJLaU4lOZC0tArSR96IdD010y9pk/9C50ZzepmSVZ2MSvvnO9853xnjmbO25e8nqcszc8rYB6sOSY8uOqa0G6x1RZb4qvveLqxr3chWNvX34c6utHnCGZZUhy9DzEz52zLiuLjZE0+2erpOILGsHWMU6sAHhDomBhc1jEUK8rnCmAf4c8/88ByLNKSP5bE0/P3bMsAHd8xiOU6QNMM18EE+QZpNAUiIhFESx6yHKKhxhzpWXhxpQsJz3HdwgzcXBbAkZIPSsOXNHw2ef7w5Pdn0+BTGysT0vtgFSF9COYwIzN61/gSBpHD5NHTf/76kwYv/711//jwQYmfi4j0Aizc33T8mo4Pi11jBgSJjxwZ5uSPLyePH+YhxDXdbB43gzz9zSDNQMOvaPCIhvdo8Jh/hz/T8RENX9HwBxr+yryO7x3R4Bsa3v3v9ZPKjYhqEZc3U5uFtOT8Ls3hT21wEajb7fX2ux8zGe9tbV4FA63LCDSbcanLGez1HkSQOezsZtdlQbMGqwMab8G+R4bZjJrNVAZToIUxzGW+o/LuV3eb4Px5UEQUA/KEmXR3drlCjgS2tQ/BpZSm0xoi9Dm1pZumgdlr04O4OOoCUG9o59Rmi6GzjKN66sjQq1YnATXUcSR71pBWGGKm9PeQ7piV+U8RNQQI6EwKZJCZJPR1y7nmfgZRpYw0qoYUj0NnkpIKNJMcVon9SiUSUEMER86kIQoxU/oDiDA7zSoVJJgiER0XQd3ogVIvoGOW8KDIV0jTLCfSXyS8UPzgNG50VnFlOmBtAzTUltX3bHYDN1R2oCyIFNiR0jzzSInrI6lLdxW0WEhw/YP2VhukooHVjSsiYExQFnFUfKInlwrfrumOxquZ07vA6iKz8I1KUt7cutLeApc/YVknM8Qmd/sQDgtDtVSOLYiynBIT/yunpgsXbLfbhajRXFwx4Z7fFTVNVaMSJ0uQvg5Jn/DWiFI29zjeQ5ANITDPLLCLK/AAGj6BWb4YJGcPie1AYvRWbbtRMUL9Rsfs75COX4jp4yf+Hdyl4Z3Jq6c0+I4G39PgPg2exOMJDTlycnT7+MUDNv2wwWT7o/WTr3+kwS/Hz+9Mvvg2GkNKBrJtwia9bjRmbPBrtoy3ZKqS/jJkta+cf5A10AlMBqBTjcHzyA87vHuTJC+yFuM/NE00T74NZW5RZ6XaB0AbwzKm6C4qo4qsdbmSy6CMT1w0tfmgjofVfByhvRmpaXU6luHb5AzqBPeGAcR1UsYqjHWZWM8Y5dscWetyTe+TMrapPc9X1mO+baex8sUeKf8DRelb7w==</source>
+    <source>eJydVm1v2lYU/s6vuJPSGqKEfA9LOpqQNRoNDCJVU4gsx76AF2N7vhcWtCHVRtNStdWmaUo1rS9qV+1V7T7sRZXW/Zq7EO3T/sLuvb4Y29iEghA25zznOee5r+fta3bbzqwtL2fAMtg1NXhy09KgkafWPDUx6zu2oh4rLQh2j5V3oeI0OgxBPWsZU+lARN0xXyGT6aKJTTwLESMHNqyjD6GKG8xS4a80dLoYnks1FIRCVgBPMDQ1BK4rCHJL5pMMoB8ezz7LQDd1nBd/1vjT7h4ZugqaXVPFumUCWVYtE2Gnq+JsjiN8Ek60Zju6iWUnu4TbOlrdbEHMKi3riIJzBQ4cZOJJifeSeM9Gzx9e/P5snHzso2PpKB1QdBylD5YQJVPbVWZCwA8YPXr6z19/Evflv5/dPz99kBJnOVhEAZrubzJ8TYanyaEBgwNx1zFFmos/vhw9fhiHYEuzonXcduP0t90wA/G+Iu4j4t0j7mP26/1MhmfEe0W8H4j3K406v3dG3G+Id/e/109mToQ/FsHwRsZmJSw5PktL6CMDbACpXiqXtvapjJ1a5SboyS1KIBuUSypEsLfa0IE04OAwahcDGnXoTZB9C3Zs3I9WlMuFKhgDdYRgrPIDiW0R6TAHrl4FSUQBIE4YKffgkClkSGDoxxBcC2ma1uCjr0h5RdNURLdNG6LkrCtAashXpFyeoqOMg/nU4b49W50AzKGOIelzDmmJKRYq/8hRTG1m/WPEHAI4dCEFIslCEjqKblatj6EzU0YYNYcUm0EXkhJKtJAcOhLHM5UIwBwiGHIhDX6KhcrvQQfR02ymggkmSUTTcqCitkFqFFAQLbiXFMulybrp608Snii+N40bXDa4ohywuweyUl7v2Aa9gbMSPVBWeAn0SMldeqQE4yOoU2cV5GlKcOtGqVYCoWyguLfNEwYEaRkHySf65FJh0zWe0cAaOb0TvJajJe6oScmV2napBq5/QKue9BAVFvYe7CemyksMm5ClEBITvIpuan3dsFot6GRzq5saPOq2sgeRgiRakAQ2NnllK1EX7yxQ4BU3boA5zIWvSdzBbMn4UrQjls92IKWAfBbj2NVNeALVLva9YqinMHRcdyBW26yJyzaq25X19Z3S/tYNeatcrNfBpyBsq9Yq1bpcLu6X2OV1STcp0WRBNtEAiaRNlrFoGNkZfdxvZEi/p2T4grdAP7Ff9y7x7oxePSXud8T9nrj3ifsk6JGIx5Cjs8/PXzygLRjtjurvly++/pG4v5w/vzP64lu/F0rpCuuYtpstv9fZY3d9Gm9KayfiRcrZsaIJc/SeguGkC5tanayOeMfFttCkyA26ztkfWeYrOL4XRG3+8g6tYQANBNOY/Asxjcr3zss1uZHS+PhtNzcfVFB/Nh9DyG9GqunNpq52DXwJ9QT3hgn4nZbGyp3zMtE1o6ZPs++dl2t8qaWxjf1xvrQ11jWMMFZs7EHmf0WWjME=</source>
+  </file>
+  <file path="model\object\PowerObject.php" generated-path="model.object.PowerObject.html" hash="92e73b434d7e9c70c82c367cdfbe6683" package="IkaGear\model\object">
+    <docblock line="0">
+      <description>PowerObject.php.</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="IkaGear\model\object"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="IkaGear\model\object" line="12" package="IkaGear\model\object">
+      <extends/>
+      <name>PowerObject</name>
+      <full_name>\IkaGear\model\object\PowerObject</full_name>
+      <docblock line="12">
+        <description>PowerObject.</description>
+        <long-description></long-description>
+        <tag name="package" line="12" description="IkaGear\model\object"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="15" package="IkaGear\model\object">
+        <name>$uuid</name>
+        <full_name>\IkaGear\model\object\PowerObject::uuid</full_name>
+        <default></default>
+        <docblock line="15">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="15" description="&lt;p&gt;uuid&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="17" package="IkaGear\model\object">
+        <name>$name</name>
+        <full_name>\IkaGear\model\object\PowerObject::name</full_name>
+        <default></default>
+        <docblock line="17">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="17" description="&lt;p&gt;name&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="IkaGear\model\object" line="19" package="IkaGear\model\object">
+        <name>$img</name>
+        <full_name>\IkaGear\model\object\PowerObject::img</full_name>
+        <default></default>
+        <docblock line="19">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="19" description="&lt;p&gt;img&lt;/p&gt;" type="String" variable="">
+            <type>String</type>
+          </tag>
+        </docblock>
+      </property>
+    </class>
+    <source>eJxtzrEOwiAQgOH9nuIGJ4b2ATCxm3HSxLXLlZKKhUKg6GB8d49OpoHxv+9yHE/hEaAVAlDgzb91vA5PrdaGc8Ot5C6QmmnSeJnprCn2zo/a9n6DDFpYyOnEqk4k1A5si8pSSv8ZPoD82GP3ooj3NZplwpzNWHyZhTxYo/BQmqzq8p29Lq2ujZv2mJOEL/wAXvZUTA==</source>
   </file>
   <package name="IkaGear" full_name="IkaGear">
     <package name="controller" full_name="IkaGear\controller"/>
-    <package name="model" full_name="IkaGear\model"/>
+    <package name="model" full_name="IkaGear\model">
+      <package name="object" full_name="IkaGear\model\object"/>
+    </package>
     <package name="system" full_name="IkaGear\system"/>
     <package name="view" full_name="IkaGear\view">
       <package name="web" full_name="IkaGear\view\web"/>
@@ -900,7 +1401,9 @@
   <package name="global" full_name="global"/>
   <namespace name="IkaGear" full_name="IkaGear">
     <namespace name="controller" full_name="IkaGear\controller"/>
-    <namespace name="model" full_name="IkaGear\model"/>
+    <namespace name="model" full_name="IkaGear\model">
+      <namespace name="object" full_name="IkaGear\model\object"/>
+    </namespace>
     <namespace name="system" full_name="IkaGear\system"/>
     <namespace name="view" full_name="IkaGear\view"/>
   </namespace>

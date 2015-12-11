@@ -21,9 +21,18 @@
           <p class="h3">About</p>
         </div>
         <div class="col-xs-12">
-          <p>何番煎じかわからないギアの検索と保有管理ツールです。</p>
-          <p>保有チェックの保存はブラウザのlocalStorageに保存します。<br>なので、他のブラウザ・端末で共有できません。（そのうち何とかするかも）</p>
-          <p>動作確認環境：Windows7+Chrome<br>Internet Explorerは9以上じゃないと動かないです。9以上で動く保証もないです。</p>
+          <p>
+            何番煎じかわからないギアの検索と保有管理ツールです。
+          </p>
+          <p>
+            保有チェックの保存はブラウザのlocalStorageに保存します。<br>
+            <del>なので、他のブラウザ・端末で共有できません。（そのうち何とかするかも）</del><br>
+            <a href="/bkrs.php">バックアップ・インポート</a>機能で他のブラウザにデータ引き継げるようになりました。
+          </p>
+          <p>
+            動作確認環境：Windows7+Chrome<br>
+            Internet Explorerは9以上じゃないと動かないです。（9以上で動く保証もないです。）
+          </p>
         </div>
     </div>
     <div class="row">
@@ -48,7 +57,7 @@
         </div>
         <div class="col-xs-12">
           <p>本サイトのコンテンツに記載された会社名・製品名は、各法人または個人の登録商標または商標です。<br>スプラトゥーン/Splatoonは任天堂の登録商標です。<br>本サイトは任天堂やスプラトゥーン公式とは一切関係ありません。</p>
-          <p>内容に誤りがあった場合、<a href="https://twitter.com/xxxkurosukexxx">ナカノヒト：@xxxkurosukexxx</a>へご連絡ください。</p>
+          <p>内容に誤りがあった場合、<a href="https://twitter.com/xxxkurosukexxx" target="_blank">ナカノヒト：@xxxkurosukexxx</a>へご連絡ください。</p>
         </div>
     </div>
     <div class="row">
@@ -57,6 +66,10 @@
       </div>
       <div class="col-xs-12">
         <dl>
+          <dt><a href="https://github.com/xxxkurosukexxx/IkaGear/releases/tag/v20151211" target="_blank">v20151211</a></dt>
+          <dd><ul>
+            <li>Fix：内部調整</li>
+          </ul></dd>
           <dt><a href="https://github.com/xxxkurosukexxx/IkaGear/releases/tag/v20151208" target="_blank">v20151208</a></dt>
           <dd><ul>
             <li>New：表示切替機能追加（全て：未保有のみ：保有のみ）</li>

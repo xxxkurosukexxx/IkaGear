@@ -7,6 +7,11 @@
 namespace IkaGear\model;
 
 use IkaGear\IkaGear;
+use IkaGear\model\object\BrandObject;
+use IkaGear\model\object\GearObject;
+use IkaGear\model\object\PowerObject;
+use IkaGear\model\object\TypeObject;
+use IkaGear\model\object\VersionObject;
 
 /**
  * BaseModel.
@@ -37,7 +42,7 @@ class BaseModel
                 null,
                 null,
                 [
-                    \PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_ASSOC,
+                    \PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_CLASS,
                     \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
                     \PDO::ATTR_EMULATE_PREPARES => false,
                 ]
@@ -56,7 +61,7 @@ class BaseModel
      */
     public function getGearList()
     {
-        return $this->db()->query('SELECT * FROM v_gear_list')->fetchAll();
+        return $this->_getFromList('v_gear_list', 'GearObject');
     }
 
     /**
@@ -66,7 +71,7 @@ class BaseModel
      */
     public function getBrandList()
     {
-        return $this->db()->query('SELECT * FROM v_brand_list')->fetchAll();
+        return $this->_getFromList('v_brand_list', 'BrandObject');
     }
 
     /**
@@ -76,7 +81,7 @@ class BaseModel
      */
     public function getPowerList()
     {
-        return $this->db()->query('SELECT * FROM v_power_list')->fetchAll();
+        return $this->_getFromList('v_power_list', 'PowerObject');
     }
 
     /**
@@ -86,7 +91,7 @@ class BaseModel
      */
     public function getTypeList()
     {
-        return $this->db()->query('SELECT * FROM v_type_list')->fetchAll();
+        return $this->_getFromList('v_type_list', 'TypeObject');
     }
 
     /**
@@ -96,6 +101,23 @@ class BaseModel
      */
     public function getVersionList()
     {
-        return $this->db()->query('SELECT * FROM v_version_list')->fetchAll();
+        return $this->_getFromList('v_version_list', 'VersionObject');
     }
+
+     /**
+      * viewを指定してデータを取得する.
+      *
+      * @param String $viewName view名
+      * @param String $objectClassName object class名
+      *
+      * @return Array 結果
+      */
+     private function _getFromList($viewName, $objectClassName)
+     {
+         $stmt = $this->db()->prepare('SELECT * FROM '.$viewName);
+         $stmt->setFetchMode(\PDO::FETCH_CLASS | \PDO::FETCH_PROPS_LATE, '\IkaGear\model\object\\'.$objectClassName);
+         $stmt->execute();
+
+         return $stmt->fetchAll();
+     }
 }

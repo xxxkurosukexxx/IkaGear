@@ -32,7 +32,7 @@
             <select class="form-control" name="search__type">
               <option value="">---</option>
 {foreach $types as $t}
-              <option value="{$t['name']}"{if $sp['type']==$t['name']} selected{/if}>{$t['name']}</option>
+              <option value="{$t->name}"{if $sp['type']==$t->name} selected{/if}>{$t->name}</option>
 {/foreach}
             </select>
           </div>
@@ -43,7 +43,7 @@
             <select class="form-control" name="search__brand">
               <option value="">---</option>
 {foreach $brands as $b}
-              <option value="{$b['name']}"{if $sp['brand']==$b['name']} selected{/if}>{$b['name']}</option>
+              <option value="{$b->name}"{if $sp['brand']==$b->name} selected{/if}>{$b->name}</option>
 {/foreach}
             </select>
           </div>
@@ -54,7 +54,7 @@
             <select class="form-control" name="search__mainPower">
               <option value="">---</option>
 {foreach $powers as $p}
-              <option value="{$p['name']}"{if $sp['mainPower']==$p['name']} selected{/if}>{$p['name']}</option>
+              <option value="{$p->name}"{if $sp['mainPower']==$p->name} selected{/if}>{$p->name}</option>
 {/foreach}
             </select>
           </div>
@@ -75,7 +75,7 @@
             <label>追加バージョン</label>
             <div class="checkbox">
 {foreach $versions as $v}
-              <label><input type="checkbox" name="search__version[]" value="{$v['name']}"{if in_array($v['name'], $sp['version'])} checked{/if}> v{$v['name']}</label>　
+              <label><input type="checkbox" name="search__version[]" value="{$v->name}"{if in_array($v->name, $sp['version'])} checked{/if}> v{$v->name}</label>　
 {/foreach}
             </div>
           </div>
@@ -116,15 +116,15 @@
           <tbody>
 {foreach $gears as $g}
             <tr class="gear">
-              <td class="gear__have checkbox"><label><input type="checkbox" class="form-control input-sm gear__have__check" id="ghc-{$g['uuid']}" value="{$g['uuid']}"></label></td>
-              <td class="gear__name"><img data-original="/img{$g['img']}" class="lazy gear__name__img">{$g['name']}</td>
-              <td class="gear__brand"><img data-original="/img{$g['brand_img']}" class="lazy gear__brand__img">{$g['brand']}</td>
-              <td class="gear__mainPower"><img data-original="/img{$g['power_img']}" class="lazy gear__mainPower__img"></td>
-              <td class="gear__easyPower hidden-xs">{if {$g['easy_power_img']} != ''}<img data-original="/img{$g['easy_power_img']}" class="lazy gear__easyPower__img">{else}--{/if}</td>
-              <td class="gear__difficultyPower hidden-xs">{if {$g['difficulty_power_img']} != ''}<img data-original="/img{$g['difficulty_power_img']}" class="lazy gear__difficultyPower__img">{else}--{/if}</td>
-              <td class="gear__rank">{for $i=1 to $g['rank']}★{/for}</td>
-              <td class="gear__price">{if is_numeric($g['price'])}{$g['price']|number_format}{else}{$g['price']}{/if}</td>
-              <td class="gear__version hidden-xs">v{$g['version']}～</td>
+              <td class="gear__have checkbox"><label><input type="checkbox" class="form-control input-sm gear__have__check" id="ghc-{$g->uuid}" value="{$g->uuid}"></label></td>
+              <td class="gear__name"><img data-original="/img{$g->img}" class="lazy gear__name__img">{$g->name}</td>
+              <td class="gear__brand"><img data-original="/img{$g->brand_img}" class="lazy gear__brand__img">{$g->brand}</td>
+              <td class="gear__mainPower"><img data-original="/img{$g->power_img}" class="lazy gear__mainPower__img"></td>
+              <td class="gear__easyPower hidden-xs">{if {$g->easy_power_img} != ''}<img data-original="/img{$g->easy_power_img}" class="lazy gear__easyPower__img">{else}--{/if}</td>
+              <td class="gear__difficultyPower hidden-xs">{if {$g->difficulty_power_img} != ''}<img data-original="/img{$g->difficulty_power_img}" class="lazy gear__difficultyPower__img">{else}--{/if}</td>
+              <td class="gear__rank">{for $i=1 to $g->rank}★{/for}</td>
+              <td class="gear__price">{if is_numeric($g->price)}{$g->price|number_format}{else}{$g->price}{/if}</td>
+              <td class="gear__version hidden-xs">v{$g->version}～</td>
             </tr>
 {/foreach}
           </tbody>

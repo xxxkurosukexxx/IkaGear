@@ -7,6 +7,7 @@
 namespace IkaGear\model;
 
 use IkaGear\IkaGear;
+use IkaGear\model\object\GearObject;
 
 /**
  * IndexModel.
@@ -72,10 +73,13 @@ class IndexModel extends BaseModel
             $sql .= ' ORDER BY '.$this->getOrderKey($sortParams['name']).' '.$sortParams['order'];
         }
 
-        IkaGear::logger()->debug($sql);
-        IkaGear::logger()->debug($sqlParams);
+        IkaGear::logger()->debug([
+            'sql' => $sql,
+            'params' => $sqlParams,
+        ]);
         $stmt = $this->db()->prepare($sql);
         $stmt->execute($sqlParams);
+        $stmt->setFetchMode(\PDO::FETCH_CLASS | \PDO::FETCH_PROPS_LATE, '\IkaGear\model\object\GearObject');
 
         return $stmt->fetchAll();
     }
