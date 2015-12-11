@@ -57,6 +57,10 @@
       </div>
       <div class="col-xs-12">
         <dl>
+          <dt><a href="https://github.com/xxxkurosukexxx/IkaGear/releases/tag/v20151211" target="_blank">v20151211</a></dt>
+          <dd><ul>
+            <li>Fix：内部調整</li>
+          </ul></dd>
           <dt><a href="https://github.com/xxxkurosukexxx/IkaGear/releases/tag/v20151208" target="_blank">v20151208</a></dt>
           <dd><ul>
             <li>New：表示切替機能追加（全て：未保有のみ：保有のみ）</li>
