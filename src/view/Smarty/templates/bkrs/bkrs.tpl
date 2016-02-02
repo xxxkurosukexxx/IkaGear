@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>IkaGear</title>
+  <title>バックアップ・インポート - IkaGear</title>
 
 {include file="common/commonLoadCss.tpl"}
 
@@ -16,6 +16,10 @@
 <body>
   <div class="container mainContent">
 {include file="common/commonHeader.tpl"}
+    <ol class="breadcrumb">
+      <li><a href="index.php">IkaGear</a></li>
+      <li class="active">バックアップ・インポート</a></li>
+    </ol>
     <div class="row">
       <div class="col-xs-12">
         <p>
