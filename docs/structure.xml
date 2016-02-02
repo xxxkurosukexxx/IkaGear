@@ -685,7 +685,7 @@
     </class>
     <source>eJytVM9PE0EUvu9fMU1IdkugvXiithKNGhONB49immGdlpHt7mZmChIhYRcURRKRIFiFcDGAQVBivBD/m8m28b/wze526ZRKODiXzb73fe/HN2/e9Rv+lG8Uh4cNNIxuYk5uea5gnuMQVgBPAczKM+5jexrXCbo3je8SzCbsDAbuouHiBuGAGQQoGUaTnzvSb0kzzlAyO8EbmIk5gA8uJ05kO5jzPo/xwkBwgIXGZzBDDyefEVugR3E4RVJen9EZLAgaSrKgMnKbjgPJUmr8haTUpaKQ/qTM5qRDbVRruragnouqVeiNC9a0hZWPEUn+hQuxkgq60brWcUZEk7l6mZdmTErWkqlDa8iivKr6sIbEFOWjlQSZz/eg1NG8qnUymwUtZci0AXXSEjVe99ulXOw3Wl8+vxUZHNx+bhNfdSDDDRsLe0oG2zLYa7dCGRxF73/L4Ge0ciaDVvTy9M/ip2hlv7P+6oJcPma4gSayYGiIoJ5omf1SCWNCBrW0aP26pl0Txjx236tbgCj1O7tSjFZgHmndtR5rgpsx+QHhHB6NicoVSDNaqRORmqz8SIZ/AkGeUu47eM4yba/R8NxiTC8I3zGvLPYgSWRwIpeOZfgDLgCUjlY/g9gyfPufNE6fVCZyptjl8lYbiQgwiP2q9OhcrVGnB3IH/pRfm354hdT3uJWFHEGm49WvweYy8yhXLqMadmDNzM+jLnQSVofaVlaSIJ8w6sm66yX1v6FiEclgVQa7Mnwjg3exrt/kEgzxSfR6t72zF61tqbH+ctr+sB3Lti+DZRBbXUJw0D5stc+2ZHgol77GrKOBNyMXQy1rLGkVKrTMXC6X0Tuts87mHljMHsl0vDa1C4goHa7a0ffo+GO0c5iWFNd/7g03Or/WOpuniVeLmK7zsbFEUvU8alhg54rF/5Ou95I+iAXjL91lVGs=</source>
   </file>
-  <file path="controller\IndexController.php" generated-path="controller.IndexController.html" hash="d4827972fcc0dd1af12154d9c9ef390e" package="IkaGear\controller">
+  <file path="controller\IndexController.php" generated-path="controller.IndexController.html" hash="c031e8d6438575266550028b882dc2fc" package="IkaGear\controller">
     <docblock line="0">
       <description>IndexController.php.</description>
       <long-description></long-description>
@@ -764,6 +764,52 @@
           <long-description></long-description>
         </docblock>
       </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="IkaGear\controller" line="95" package="IkaGear\controller">
+        <name>getGetParamString</name>
+        <full_name>\IkaGear\controller\IndexController::getGetParamString()</full_name>
+        <docblock line="95">
+          <description>GETパラメータ取得(String).</description>
+          <long-description></long-description>
+          <tag name="param" line="95" description="&lt;p&gt;キー名&lt;/p&gt;" type="String" variable="$key">
+            <type>String</type>
+          </tag>
+          <tag name="param" line="95" description="&lt;p&gt;デフォルト値&lt;/p&gt;" type="String" variable="$default">
+            <type>String</type>
+          </tag>
+          <tag name="return" line="95" description="値が取得できた場合はその値 || 取得できないかつデフォルト指定ありの場合は指定されたデフォルト値 || 取得できないかつデフォルト指定無しの場合は空文字" type="String">
+            <type>String</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$key</name>
+          <default></default>
+          <type>String</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$default</name>
+          <default>''</default>
+          <type>String</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="IkaGear\controller" line="107" package="IkaGear\controller">
+        <name>getGetParamArray</name>
+        <full_name>\IkaGear\controller\IndexController::getGetParamArray()</full_name>
+        <docblock line="107">
+          <description>GETパラメータ取得(Array).</description>
+          <long-description></long-description>
+          <tag name="param" line="107" description="&lt;p&gt;キー名&lt;/p&gt;" type="String" variable="$key">
+            <type>String</type>
+          </tag>
+          <tag name="return" line="107" description="値が取得できた場合はその値 || 取得できない場合は空配列" type="String">
+            <type>String</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$key</name>
+          <default></default>
+          <type>String</type>
+        </argument>
+      </method>
       <method final="false" abstract="false" static="false" visibility="public" namespace="IkaGear\controller" line="23" package="IkaGear\controller">
         <name>__construct</name>
         <full_name>\IkaGear\controller\BaseController::__construct()</full_name>
@@ -820,7 +866,7 @@
         <inherited_from>\IkaGear\controller\BaseController</inherited_from>
       </method>
     </class>
-    <source>eJydlU1P2zAYx+/5FD5UqsOg3Ol4KaygSt3GSpk0AbJMalqLNIlsp1AhLvSy6w677TK0y+4ch/ZhqrGvMdtx0ryq1XJok8e/5x/b/+dxXu8Go8DaXFuzwBroeANye+B7gvmuS1hDDjVkXA3tBdi5xkMCOtf4iGB27iSYHN60PDwmXDJlQNOyQr4YMP/NTHDsD4h7rifwVt3KnIpJ6dc5LuY8PwTIrSDegIN9zMkibN1ZQF5SDuxNMAMtxvAUvPz49vfpcT77Mp/9nM++z2e/5g+/lbRiA0YnWBBQQ1xOzhkdY4bHHGwDL3TV1Er05g/PSmP2ebmkz0SFoP6Xa6YeFQ3zYNLDS5c64Cr0HEF9DyAk95cLFjoC2pqIVqkuwaapJ3WZXd7acv3hkDCI0EG3dXKCkN3McDVtg5oWuQELM6BtpphwYhqQLuVColHOxs6QiL6JwrzsJcPeoMjvx+FCQuDfEFZMOI7DhYQJYVzuSzHl42KgkDSUe5LLiPw+MgOwJkaUx9HINGivx9HESGgXdyhCxpiJKbQ3dmS90qEHzzKUuuo8qIPtHVD+qhJcvjWTkJpFCa6c4oY39pRQ2iCDJWaVcNoXwyUelXDGDkOmzClhlQsGjA3JUhdy+waUBy6ewjpVVbmpfxsicOspT++Bg4UzAvC8feuQQPdJjdi5XjDbptGEg5JLCVnRb74tS8+Ml69Pf54fc91qmj1p16yruX6lVwBSjtRREBdc5tyxK5aQP5xKaksdy3prr6grCEPUC0IBO++OT/voqN1fl+WkNRDSpA12t0C9XlFGqwlpslpIV9dqShFaLTXG1NMnwmpyC7xaUr7xejU1TVYLmZLXWlh9IFCkCJcKx5nr4LDT7bd76E37sHXa7SfPvfaH006vjVq9XusTeBWHD9/3DkxQT+vsouw4mFBy44ywN1ziZoqLFoldN7fOi3TDJLeMiJB5pSXarGirqk/nap2VOv5W6asEr+6q9Pf5/3pKKiztKJ8Nllau1onAUqHVLEjWExtwb/0Dwgno3g==</source>
+    <source>eJy1Vt1u2zYYvddT8MKApdR17pMlrZs6gYFsyxxnwNAEAiszthBZFig6ibEWmOwWCbYE6y7aAEWHtUWAoRva3eSq6M/DEEqwtxhJUbJ+GyfAdGFb5PkOP51zSPmrW07XUWZnZhQwAxp2G+0v9W2C+5aFcJVNVdk4n7rtQGMHdhBo7MAVBPGmEcHY9Kxiwx5yGSYPMK8oA3cyIb/nE4O9fhtZm6KBr/lPVlPQlFjOsKDrpqcA2ifIbrvgDnTRZFj5UQHsYnTg9i7EoIYxHILz0xcXZ6/p+Dc6fkPHr+j4Ax195tQc62BzFxIESrrLmjO6axDDngsWgD2weGs5fHT0kXOMDy+n7GNSQCi+2TObtkmq8kaWD+5bpgG2B7ZBzL4NdJ3p6xI8MIiqCUTwlPwieBi745dUeW7O6nc6CKu6vrRaW1/XdW0+gSsJG3hbaA9MzFA12WKEI0MHrZouYdCg5uZiB5GWHFXTtPcxtNtZ/J1wOFPg9PcQzhashcOZgl2EXaZLtuT7yUSmqMM0SVUEfq/ICbVEuqYbjgamqVoFhMORk6qWlSiA9CAmQ1W7ucgCa3Zs9V4Cxa+y65TBwiLIXysHzlZNFMS6yIFzq1yJl/7koIRDEha5lYMTxkhcZFIOTvohkTF3crDcBgkMHUmitph8bdN1LDhUyyaP5az4rBLHKsdMfQgMSIwuUDfr+wZyxEYpIS21GaRsAhrhVIaLESnBZ3pf5h4a50/P/I+vU9tV7vZovyZdTW1YcxuopqvzsyBMXOLg0QoeIX065WSLn8vxsLAdsYKCuKwTbNodtRyQ6LqAFiVoSg4B1UBRwKZkCbB5rfSgaYtDYEqmCT6PjS2zMyWRgOZxyGgX0Ih3w4QlBOcSmWjP6EK7c5nWMWAFlKFlpem24kGOfmJEBtjOjc58QdyL3mnTJT52LE2T9whenPb4i/OaWWcUX0h6H7cvj5agCJDXEj56ioTsE92Z8Cv1Vkpy/9dn/qcTNWhCq4bIqIL9P2OUIJgHpR3E/5G8ZbX+k+MiUBttw4FFAB0f0PFTOmKr/c3M9n86zdLLh5ClDEK9o6An6v1JvWPq/eG/PPOfHFLvH+r9Tr13DAMePABJ0F/Ue0S9X6h3mlr0/OjAf/eceiM6+pkXh1zhOEMesTWyrV55jYtHr6h3El/j4s3782cH/tuT8HGDRGcjnU0DF7oyUXIBlMtB2OMRltptmxZBWDdtZ0DUxjdrGy2d+VwRZmng1lxEI1N0pWCIg+aaufhfXI6r++/jY//wKuoGx6YQpkhNyCF6oKn6JWkrYLmx2qo39bv15drGaiu6b9a/22g063qt2az9AG6Ew8vfNpfkoHDl3pYWGfJQ+Q9mtmGH</source>
   </file>
   <file path="view\web\index.php" generated-path="view.web.index.html" hash="adcc4afa09e413e6084f75d080b01f50" package="IkaGear\view\web">
     <docblock line="0">
