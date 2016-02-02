@@ -1,9 +1,14 @@
 {
     "name": "xxxkurosukexxx/ikagear",
     "description": "IkaGear",
+    "type": "project",
+    "homepage": "http://ikagear.kurosuke.org",
     "require": {
         "smarty/smarty": "^3.1",
-        "apache/log4php": "^2.3"
+        "apache/log4php": "^2.3",
+        "php": ">=5.4.7",
+        "ext-pdo": "*",
+        "ext-pdo_sqlite": "*"
     },
     "license": "MIT",
     "authors": [

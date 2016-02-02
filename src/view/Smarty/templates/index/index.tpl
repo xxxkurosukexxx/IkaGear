@@ -8,6 +8,9 @@
 
   <title>IkaGear</title>
 
+  <meta name="description" content="IkaGearはSplatoonのギア保有状況を管理・チェックできるツールです。">
+  <meta name="keywords" content="Splatoon,スプラトゥーン,ギア,イカ">
+
 {include file="common/commonLoadCss.tpl"}
 
   <link rel="stylesheet" href="/css/index.css?v={#version#}">
@@ -16,6 +19,9 @@
 <body>
   <div class="container mainContent">
 {include file="common/commonHeader.tpl"}
+    <ol class="breadcrumb">
+      <li class="active">IkaGear</a></li>
+    </ol>
     <div class="row">
       <form>
         <input type="hidden" name="sort__name" id="sort__name" value="{$sort['name']}">
@@ -129,6 +135,18 @@
 {/foreach}
           </tbody>
         </table>
+      </div>
+    </div>
+    <div class="row footContent">
+      <div class="col-xs-12">
+        <p>
+          IkaGearはSplatoonのギア保有状況を管理・チェックできるツールです。
+        </p>
+        <p>
+          本サイトのコンテンツに記載された会社名・製品名は、各法人または個人の登録商標または商標です。<br>
+          スプラトゥーン/Splatoonは任天堂の登録商標です。<br>
+          本サイトは任天堂やスプラトゥーン公式とは一切関係ありません。
+        </p>
       </div>
     </div>
   </div>

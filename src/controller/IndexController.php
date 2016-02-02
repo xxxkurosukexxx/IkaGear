@@ -33,7 +33,7 @@ class IndexController extends BaseController
             $brandList = $model->getBrandList();
             $powerList = $model->getPowerList();
             $versionList = $model->getVersionList();
-            $gearList = $model->searchGearList($this->searchParams(),$this->sortParams());
+            $gearList = $model->searchGearList($this->searchParams(), $this->sortParams());
 
             $this->smarty()->assign([
                 'sp' => $this->searchParams(),
@@ -56,13 +56,13 @@ class IndexController extends BaseController
     {
         if (is_null($this->_searchParams)) {
             $this->_searchParams = [
-                'name' => filter_input(INPUT_GET, 'search__name') ?: '',
-                'type' => filter_input(INPUT_GET, 'search__type') ?: '',
-                'brand' => filter_input(INPUT_GET, 'search__brand') ?: '',
-                'mainPower' => filter_input(INPUT_GET, 'search__mainPower') ?: '',
-                'rank' => filter_input(INPUT_GET, 'search__rank') ?: '',
-                'version' => array_filter(filter_input(INPUT_GET, 'search__version', FILTER_DEFAULT, FILTER_REQUIRE_ARRAY + FILTER_FORCE_ARRAY) ?: []),
-                'viewchange' => filter_input(INPUT_GET, 'viewchange') ?: 'all',
+                'name' => $this->getGetParamString('search__name'),
+                'type' => $this->getGetParamString('search__type') ,
+                'brand' => $this->getGetParamString('search__brand'),
+                'mainPower' => $this->getGetParamString('search__mainPower'),
+                'rank' => $this->getGetParamString('search__rank'),
+                'version' => $this->getGetParamArray('search__version'),
+                'viewchange' => $this->getGetParamString('viewchange', 'all'),
             ];
         }
 
@@ -76,11 +76,36 @@ class IndexController extends BaseController
     {
         if (is_null($this->_sortParams)) {
             $this->_sortParams = [
-                'name' => filter_input(INPUT_GET, 'sort__name') ?: '',
-                'order' => filter_input(INPUT_GET, 'sort__order') ?: '',
+                'name' => $this->getGetParamString('sort__name'),
+                'order' => $this->getGetParamString('sort__order'),
             ];
         }
 
         return $this->_sortParams;
     }
+
+     /**
+      * GETパラメータ取得(String).
+      *
+      * @param String $key キー名
+      * @param String $default デフォルト値
+      *
+      * @return String 値が取得できた場合はその値 || 取得できないかつデフォルト指定ありの場合は指定されたデフォルト値 || 取得できないかつデフォルト指定無しの場合は空文字
+      */
+     private function getGetParamString($key, $default = '')
+     {
+         return filter_input(INPUT_GET, $key) ?: $default;
+     }
+
+     /**
+      * GETパラメータ取得(Array).
+      *
+      * @param String $key キー名
+      *
+      * @return String 値が取得できた場合はその値 || 取得できない場合は空配列
+      */
+     private function getGetParamArray($key)
+     {
+         return array_filter(filter_input(INPUT_GET, $key, FILTER_DEFAULT, FILTER_REQUIRE_ARRAY + FILTER_FORCE_ARRAY) ?: []);
+     }
 }
