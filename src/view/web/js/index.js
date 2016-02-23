@@ -33,6 +33,7 @@
     $('.form__btn__count').on('click', function() {
         var checkBoxCount = $('.gearTable tbody input[type=checkbox]').size(),
             checkedCount = $('.gearTable tbody input[type=checkbox]:checked').size();
+        ga('send', 'event', 'button', 'click', 'CountBtn');
         alert('現在の検索条件での保有率：' + checkedCount + ' / ' + checkBoxCount);
         return false;
     });
@@ -77,6 +78,7 @@
             break;
     }
     $('.viewchange__a').on('click', function() {
+        ga('send', 'event', 'button', 'click', 'ViewChange', $(this).data('value'));
         switch ($(this).data('value')) {
             case '全て':
                 _changeViewChange(VC_ALL);

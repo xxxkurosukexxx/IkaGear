@@ -27,6 +27,9 @@
 
 {include file="common/commonLoadJs.tpl"}
 
+  <script>
+    ga('send', 'event', 'system', 'error');
+  </script>
 </body>
 
 </html>

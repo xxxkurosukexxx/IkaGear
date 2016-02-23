@@ -22,6 +22,7 @@
     // インポートボタンイベント設定
     $('#bkrs__rs__btn').on('click', function() {
         var rstxt = $('#bkrs__rs').val();
+        ga('send', 'event', 'button', 'click', 'Restore');
         if (rstxt != "") {
             if (window.localStorage.IkaGear !== undefined) {
                 if (confirm('ブラウザに記憶されているデータを上書きします。よろしいですか？')) {
