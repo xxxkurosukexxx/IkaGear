@@ -4,6 +4,7 @@
   <script>$.fn.modal || document.write('<script src="/js/lib/bootstrap.min.js"><\/script>')</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" integrity="sha384-ovn+ksX00EqrxlV2SLbvnb13K5244CZPrO3v08mAssOuQ1AgGVcEu4k44sdOJPJE" crossorigin="anonymous"></script>
   <script>$.fn.lazyload || document.write('<script src="/js/lib/jquery.lazyload.min.js"><\/script>')</script>
+{literal}
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -14,3 +15,4 @@
     ga('send', 'pageview');
 
   </script>
+{/literal}
